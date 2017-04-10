@@ -1,0 +1,195 @@
+{
+	"restaurants" : [
+					  {
+					    "restaurant_id": "1",
+					    "name": "Swee Choon Tim Sum Restaurant Pte Ltd",
+					    "address": "191 Jalan Besar, Singapore 208882",
+					    "lat": "1.308290",
+					    "lon": "103.856954",
+					    "desc": "Restaurant for all ocassions.",
+					    "email": "support@sweechoon.com",
+					    "website": "www.sweechoon.com",
+					    "amenities" : "Parking, Wifi, Credit Card, Lunch, Dinner, Breakfast, Take-out, Dine-in",
+					    "food_rating": "3.5",
+					    "price_rating": "4.5",
+					    "featured" : "1",
+					    "phone" : "+65 6225 7788",
+					    "hours" : "6:00 pm - 6:00 am",
+					    "created_at" : "0",
+					    "category_id" : "1"
+					  },
+
+					  {
+					    "restaurant_id": "2",
+					    "name": "Jim Thompson",
+					    "address": " Address: 45 Minden Road, Dempsey Hill, Singapore 248817 ",
+					    "lat": "1.305573",
+					    "lon": "103.815691",
+					    "desc": "Good for children",
+					    "email": "support@jimthompson.com",
+					    "website": "www.jimthompson.com",
+					    "amenities" : "Parking, Wifi, Credit Card, Lunch, Dinner, Breakfast, Take-out, Dine-in",
+					    "food_rating": "4.1",
+					    "price_rating": "3.1",
+					    "featured" : "0",
+					    "phone" : "+65 6475 6088",
+					    "hours" : "6:00 pm - 6:00 am",
+					    "created_at" : "0",
+					    "category_id" : "1"
+					  },
+
+					  {
+					    "restaurant_id": "3",
+					    "name": "PuTien",
+					    "address": "127 Kitchener Rd, Singapore 208514",
+					    "lat": "1.309865",
+					    "lon": "103.857383",
+					    "desc": "For Childrens too.",
+					    "email": "support@putien.com",
+					    "website": "www.putien.com",
+					    "amenities" : "Parking, Wifi, Credit Card, Lunch, Dinner, Breakfast",
+					    "food_rating": "4.0",
+					    "price_rating": "3.8",
+					    "featured" : "0",
+					    "phone" : "+65 6295 6358",
+					    "hours" : "11:30 am - 3:00 pm, 5:30 - 11:00 pm",
+					    "created_at" : "0",
+					    "category_id" : "2"
+					  },
+
+					  {
+					    "restaurant_id": "4",
+					    "name": "Gayatri Restaurant",
+					    "address": "122 Race Course Rd, Singapore 218583",
+					    "lat": "1.309974",
+					    "lon": "103.851971",
+					    "desc": "We open 24 hrs to serve you.",
+					    "email": "support@gayatrirestaurant.com",
+					    "website": "www.gayatrirestaurant.com",
+					    "amenities" : "Parking, Wifi, Credit Card, Lunch, Dinner, Breakfast",
+					    "food_rating": "5.0",
+					    "price_rating": "4.4",
+					    "featured" : "1",
+					    "phone" : "+65 6292 4544",
+					    "hours" : "Open 24 Hrs",
+					    "created_at" : "0",
+					    "category_id" : "2"
+					  },
+
+					  {
+					    "restaurant_id": "5",
+					    "name": "Grand ShangHai Restaurant",
+					    "address": "390 Havelock Rd Singapore 169662",
+					    "lat": "1.299021",
+					    "lon": "103.834580",
+					    "desc": "You will be loving our place, so come and dine with us.",
+					    "email": "support@grandshanghai.com",
+					    "website": "www.grandshanghai.com",
+					    "amenities" : "Parking, Wifi, Credit Card, Can Smoke",
+					    "food_rating": "4.3",
+					    "price_rating": "4.4",
+					    "featured" : "1",
+					    "phone" : "+65 6836 6866",
+					    "hours" : "11:30 am - 3:00 pm, 5:30 - 11:00 pm",
+					    "created_at" : "0",
+					    "category_id" : "3"
+					  }
+
+					],
+
+	"categories" : [
+					  {
+					    "category_id": "1",
+					    "category": "Fast Food",
+					    "created_at" : "0"
+					  },
+					  {
+					    "category_id": "2",
+					    "category": "Fast Casual",
+					    "created_at" : "0"
+					  },
+					  {
+					    "category_id": "3",
+					    "category": "Casual Dining",
+					    "created_at" : "0"
+					  },
+					  {
+					    "category_id": "4",
+					    "category": "Family Style",
+					    "created_at" : "0"
+					  },
+					  {
+					    "category_id": "5",
+					    "category": "Fine Dining",
+					    "created_at" : "0"
+					  }
+					],
+
+
+	"photos" : [
+				  {
+				    "photo_id": "1",
+				    "photo_url": "https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png",
+				    "thumb_url": "https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png",
+				    "restaurant_id": "1",
+				    "created_at" : "0"
+				  },
+				  {
+				    "photo_id": "2",
+				    "photo_url": "https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png",
+				    "thumb_url": "https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png",
+				    "restaurant_id": "2",
+				    "created_at" : "0"
+				  },
+				  {
+				    "photo_id": "3",
+				    "photo_url": "https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png",
+				    "thumb_url": "https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png",
+				    "restaurant_id": "3",
+				    "created_at" : "0"
+				  },
+				  {
+				    "photo_id": "4",
+				    "photo_url": "https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png",
+				    "thumb_url": "https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png",
+				    "restaurant_id": "4",
+				    "created_at" : "0"
+				  },
+				  {
+				    "photo_id": "5",
+				    "photo_url": "https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png",
+				    "thumb_url": "https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png",
+				    "restaurant_id": "5",
+				    "created_at" : "0"
+				  },
+				  {
+				    "photo_id": "6",
+				    "photo_url": "https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png",
+				    "thumb_url": "https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png",
+				    "restaurant_id": "1",
+				    "created_at" : "0"
+				  },
+				  {
+				    "photo_id": "7",
+				    "photo_url": "https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png",
+				    "thumb_url": "https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png",
+				    "restaurant_id": "1",
+				    "created_at" : "0"
+				  },
+				  {
+				    "photo_id": "8",
+				    "photo_url": "https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png",
+				    "thumb_url": "https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png",
+				    "restaurant_id": "1",
+				    "created_at" : "0"
+				  },
+				  {
+				    "photo_id": "9",
+				    "photo_url": "https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png",
+				    "thumb_url": "https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png",
+				    "restaurant_id": "1",
+				    "created_at" : "0"
+				  }
+
+				]
+}

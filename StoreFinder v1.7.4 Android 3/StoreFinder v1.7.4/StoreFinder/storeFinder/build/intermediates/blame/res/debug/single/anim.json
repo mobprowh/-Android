@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/anim/slide_down.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/anim/slide_down.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/anim/slide_in_left.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/anim/slide_up.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/anim/slide_up.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/anim/slide_up2.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/anim/slide_up2.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/anim/trans_slide_out_right.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/anim/trans_slide_out_right.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/anim/trans_slide_in_left.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/anim/trans_slide_in_left.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/anim/rotate.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/anim/rotate.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/anim/slide_down2.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/anim/slide_down2.xml"
+    }
+]

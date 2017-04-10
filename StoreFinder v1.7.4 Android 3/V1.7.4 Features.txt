@@ -1,0 +1,154 @@
+————————————————————————————————————————————
+Store Finder v1.7.4
+————————————————————————————————————————————
+Problems fixed while displaying category stores.
+This update still uses 1.7.3 backend.
+Added GPS dialog if it is not turn on.
+
+————————————————————————————————————————————
+Store Finder v1.7.3
+————————————————————————————————————————————
+Adjusted settings to accept decimal.
+Crash issue when fetching data from the server.
+Server problems on fetching stores under a category.
+
+————————————————————————————————————————————
+Store Finder v1.7.2
+————————————————————————————————————————————
+Adjustments on the ActionBar in Profile, Login, and Register Activity.
+Cannot login/register in the app.
+
+————————————————————————————————————————————
+Store Finder v1.7.1
+————————————————————————————————————————————
+Smart fetch of data. Now it shows nearby stores only. If stores are too far
+from the user, it will get maximum of 20 stores or more (Editable in Config.h)
+And show to the user.
+Settings changed to adjust slider for radius to input box for dynamic and easy changing.
+
+————————————————————————————————————————————
+Store Finder v1.7
+————————————————————————————————————————————
+Fix performance issue.
+Backend Geocoding and Reverse-Geocoding.
+Updated Google Admob
+
+————————————————————————————————————————————
+Store Finder v1.1.5
+————————————————————————————————————————————
+Weather API update only.
+
+————————————————————————————————————————————
+Store Finder v1.1.4
+————————————————————————————————————————————
+Nothing fancy documentation update only.
+
+————————————————————————————————————————————
+Store Finder v1.1.3
+————————————————————————————————————————————
+UI Adjustments.
+Added nearby ranking of stores.
+Home screen can now specify maximum number of stores/news to be displayed
+Fixed PHP issues that fails to register user without photo provided.
+Keyboard no longer shows first.
+
+————————————————————————————————————————————
+Store Finder v1.1.2
+————————————————————————————————————————————
+Fixed new line issue \n
+Fixed issue when registering new user 
+Fixed password issue when updating for social login(no required to validate password)
+Fixed Nearby Issue.
+
+————————————————————————————————————————————
+Store Finder v1.1.1
+————————————————————————————————————————————
+Fixed Google Play Services issue for deprecated Google API.
+Fixed AdMob not showing due to non-dynamic view height.
+Some adjustments.
+Bug fixes.
+Grab Twitter Profile Pic picture as thumb photo.
+Grab Facebook Profile Pic picture as thumb photo.
+
+————————————————————————————————————————————
+Store Finder v1.1.0
+————————————————————————————————————————————
+NEW UI UPDATE, FASTER, AND USING GOOGLE UX
+Some bug Fixes.
+Review comment fix encoding.
+Adjusted some views to display properly.
+Added callback if downloading of data fails.
+
+
+————————————————————————————————————————————
+Store Finder v1.0.3
+————————————————————————————————————————————
+Fixed map fail to redirect pins when the map icon failed to load.
+Fixed crashing issue upon pressing back key to exit app
+Added sanitation for image when the admin user doesnt provide any
+Added new line in item description display. Adding “\n” in the server store description will now add new line when it is displayed in the app
+Fix reviews issues with some random crashing due to cannot decode some characters instead modified it decode it with other options.
+
+
+————————————————————————————————————————————
+Store Finder v1.0.2
+————————————————————————————————————————————
+Fixed Number input type in login.xml
+When there is no icon provided load the default icon
+Logout dialog change other text to cancel current one displays both OK button
+Added Theme Color Orange
+Added Pagination in PHP Backend (News, Store, and Category Tab)
+Updated Encoding in Reviews to use other language.
+All control characters (ascii code < 32) now allowed in JSON Strings (including field names) as Encoding/Decoding JSON data.
+
+————————————————————————————————————————————
+Store Finder v1.0.1
+————————————————————————————————————————————
+Some bug fixes.
+Fixed crashing issues in Reviews.
+Fixed Crashing issues when there is no image provided in the server.
+Some UI Adjustments.
+Updated view creation for reusable usage.
+Updated AdMob banner to Smart banner.
+
+————————————————————————————————————————————
+Store Finder v1.0 initial release:
+————————————————————————————————————————————
+
+PHP Backend
+
+Can manage users by allowing or denying access.
+Property Type creation, modification, and deletion.
+RealEstate creation, modification, and deletion.
+Photo Upload via URL or by File.
+Google Maps Integration.
+
+
+Android App
+
+Localization Ready!
+Offline Usage
+User Rating
+User Reviews
+News
+Custom Pins
+User Profile
+Social Login (Twitter/Facebook/Web)
+AdMob
+Sliding Transition
+Cool Mobile UI Interaction
+Share to Facebook
+Share to Twitter
+Call Integration
+Email Integration
+SMS Integration
+User can add Favorites
+Google Directions.
+Advance Search
+About Us Panel Added
+Terms & Conditions Panel Added
+User can edit its Profile
+Draw Objects in the map and gets all the Map Pins inside the drawing.
+Image Pinch and Zoom
+Supports Android OS 2.2 and above as long as the Google Play Service is updated.
+Supports Phone/Tablet

@@ -1,0 +1,490 @@
+[
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/map_info_placeholder.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/map_info_placeholder.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_tc.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_tc.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_web_refresh.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_web_refresh.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/toggle_thumb_off.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/toggle_thumb_off.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_map_nearby.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_map_nearby.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/star_fill.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/star_fill.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/bg_slider_track.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/bg_slider_track.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_disabled_dark.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_disabled_dark.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/profile_thumb_placeholder.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/profile_thumb_placeholder.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_register.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_register.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_blue_focused.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_button_blue_focused.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/nav_bar.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/nav_bar.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_blue_normal.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_button_blue_normal.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/header_logo.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/header_logo.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/powered_by_google_dark.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/powered_by_google_dark.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/blur_weather.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/blur_weather.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/toggle_thumb_on.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/toggle_thumb_on.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/button_share_facebook.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/button_share_facebook.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_starred.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_starred.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_back.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_back.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_map_route.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_map_route.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tag_featured.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/tag_featured.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_logo.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_logo.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_blue_pressed.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_button_blue_pressed.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_settings.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_settings.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_pressed_dark.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_pressed_dark.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_menu.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_menu.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/side_bar_header.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/side_bar_header.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/bg_slider_handle.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/bg_slider_handle.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/bg_slider_fill.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/bg_slider_fill.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_normal_dark.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_normal_dark.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_featured.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_featured.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/bg_slider_handle_selected.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/bg_slider_handle_selected.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_search.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_search.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/button_web.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/button_web.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/powered_by_google_light.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/powered_by_google_light.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_map_location.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_map_location.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_login.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_login.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/profile_placeholder.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/profile_placeholder.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_categories.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_categories.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_disabled_light.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_disabled_light.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/star_new_rating_empty.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/star_new_rating_empty.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/textbox_search_selected.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/textbox_search_selected.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/star_new_rating_fill.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/star_new_rating_fill.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_home.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_home.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_weather.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_weather.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_pressed_dark.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_pressed_dark.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/bg_header_aboutus.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/bg_header_aboutus.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_xout.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_tooltip_black_xout.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/bg_splash.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/bg_splash.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/star_empty.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/star_empty.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/button_route.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/button_route.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/review_thumb_placeholder.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/review_thumb_placeholder.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_map_draw.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_map_draw.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/textbox_fullname.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/textbox_fullname.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/textbox_username.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/textbox_username.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_arrow.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/list_arrow.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/textbox_bg_review.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/textbox_bg_review.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_focus_dark.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/list_store_placeholder.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/list_store_placeholder.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/button_call.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/button_call.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/button_twitter_large.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/button_twitter_large.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/button_facebook_large.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/button_facebook_large.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_disabled_light.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_disabled_light.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/star_new_rating_half.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/star_new_rating_half.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/image_viewer_placeholder.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/image_viewer_placeholder.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/button_email.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/button_email.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_disabled_dark.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_disabled_dark.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_back_header.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_back_header.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/button_login_large.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/button_login_large.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_menu_reviews.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_menu_reviews.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_web_back.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_web_back.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_bottomnub.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_tooltip_black_bottomnub.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_picker_magnifier.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_picker_magnifier.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_pressed_light.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/star_half.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/star_half.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_focus_light.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_close.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_close.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_normal_light.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_normal_light.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_news.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_news.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_close.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_close.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_pressed_light.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_pressed_light.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_web_forward.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_web_forward.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_focus_light.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_map_refresh.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_map_refresh.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_about.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_about.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_map.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_map.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_map_arrow.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_map_arrow.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_disabled_focus_light.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_grey_pressed.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_button_grey_pressed.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_inverse_icon.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_inverse_icon.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_disabled_focus_dark.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_menu_new_review.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_menu_new_review.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_disabled_focus_dark.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/map_pin_orange.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/map_pin_orange.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_check.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/ic_check.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_blue_xout.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_tooltip_blue_xout.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tag_starred.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/tag_starred.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/detail_image_placeholder.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/detail_image_placeholder.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/button_sms.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/button_sms.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/image_counter.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/image_counter.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_icon_normal_dark.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_icon_normal_dark.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_normal_light.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_normal_light.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/textbox_search_normal.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/textbox_search_normal.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/slider_placeholder.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/slider_placeholder.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/textbox_email.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/textbox_email.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_tooltip_black_topnub.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_tooltip_black_topnub.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_focus_dark.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_signin_btn_text_disabled_focus_light.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/common_signin_btn_text_disabled_focus_light.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_grey_focused.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_button_grey_focused.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/textbox_password.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/textbox_password.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/drawable-xhdpi/ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/com_facebook_button_grey_normal.9.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/drawable-xhdpi-v4/com_facebook_button_grey_normal.9.png"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/drawable-xhdpi-v4/button_share_twitter.png",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/drawable-xhdpi/button_share_twitter.png"
+    }
+]

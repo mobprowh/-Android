@@ -1,0 +1,482 @@
+[
+    {
+        "outputFile": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/values-fa/values-fa.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 128,
+                    "endOffset": 229
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1917,
+                        "endColumn": 128,
+                        "endOffset": 2041
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 234,
+                    "endColumn": 166,
+                    "endOffset": 396
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1750,
+                        "endColumn": 166,
+                        "endOffset": 1912
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 401,
+                    "endColumn": 126,
+                    "endOffset": 523
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1623,
+                        "endColumn": 126,
+                        "endOffset": 1745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 528,
+                    "endColumn": 168,
+                    "endOffset": 692
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 814,
+                        "endColumn": 172,
+                        "endOffset": 982
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 697,
+                    "endColumn": 126,
+                    "endOffset": 819
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1496,
+                        "endColumn": 126,
+                        "endOffset": 1618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 824,
+                    "endColumn": 187,
+                    "endOffset": 1007
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1111,
+                        "endColumn": 187,
+                        "endOffset": 1294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1012,
+                    "endColumn": 196,
+                    "endOffset": 1204
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1299,
+                        "endColumn": 196,
+                        "endOffset": 1491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1209,
+                    "endColumn": 123,
+                    "endOffset": 1328
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 987,
+                        "endColumn": 123,
+                        "endOffset": 1106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1333,
+                    "endColumn": 186,
+                    "endOffset": 1515
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2740,
+                        "endColumn": 186,
+                        "endOffset": 2922
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1520,
+                    "endColumn": 120,
+                    "endOffset": 1636
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2619,
+                        "endColumn": 120,
+                        "endOffset": 2735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1641,
+                    "endColumn": 158,
+                    "endOffset": 1795
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 655,
+                        "endColumn": 158,
+                        "endOffset": 809
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1800,
+                    "endColumn": 158,
+                    "endOffset": 1954
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2460,
+                        "endColumn": 158,
+                        "endOffset": 2614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1959,
+                    "endColumn": 115,
+                    "endOffset": 2070
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2344,
+                        "endColumn": 115,
+                        "endOffset": 2455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2075,
+                    "endColumn": 170,
+                    "endOffset": 2241
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 302,
+                        "endColumn": 170,
+                        "endOffset": 468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2246,
+                    "endColumn": 181,
+                    "endOffset": 2423
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 473,
+                        "endColumn": 181,
+                        "endOffset": 650
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2428,
+                    "endColumn": 131,
+                    "endOffset": 2555
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 131,
+                        "endOffset": 297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2560,
+                    "endColumn": 134,
+                    "endOffset": 2690
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2927,
+                        "endColumn": 134,
+                        "endOffset": 3057
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2695,
+                    "endColumn": 181,
+                    "endOffset": 2872
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3431,
+                        "endColumn": 181,
+                        "endOffset": 3608
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2877,
+                    "endColumn": 245,
+                    "endOffset": 3118
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 3185,
+                        "endColumn": 245,
+                        "endOffset": 3426
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 3123,
+                    "endColumn": 122,
+                    "endOffset": 3241
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3062,
+                        "endColumn": 122,
+                        "endOffset": 3180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 3246,
+                    "endColumn": 111,
+                    "endOffset": 3353
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 3613,
+                        "endColumn": 111,
+                        "endOffset": 3720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 3358,
+                    "endColumn": 167,
+                    "endOffset": 3521
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2176,
+                        "endColumn": 167,
+                        "endOffset": 2339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 3526,
+                    "endColumn": 129,
+                    "endOffset": 3651
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2046,
+                        "endColumn": 129,
+                        "endOffset": 2171
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 3656,
+                    "endColumn": 97,
+                    "endOffset": 3749
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 3725,
+                        "endColumn": 97,
+                        "endOffset": 3818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 3754,
+                    "endColumn": 114,
+                    "endOffset": 3864
+                },
+                "from": {
+                    "file": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-fa/common_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 3823,
+                        "endColumn": 114,
+                        "endOffset": 3933
+                    }
+                }
+            }
+        ]
+    }
+]

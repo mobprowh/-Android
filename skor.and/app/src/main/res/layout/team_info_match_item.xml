@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/background_light"
+                android:layout_marginBottom="2dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/match_item_score"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/match_item_date"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/match_item_score"
+        />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/match_item_home_logo"
+        android:layout_margin="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/match_item_date"
+        android:layout_toStartOf="@id/match_item_date"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/match_item_away_logo"
+        android:layout_margin="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/match_item_date"
+        android:layout_toEndOf="@id/match_item_date"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/match_item_home_name"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:ellipsize="end"
+        android:layout_toLeftOf="@id/match_item_home_logo"
+        android:layout_toStartOf="@id/match_item_home_logo"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/match_item_away_name"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:ellipsize="end"
+        android:layout_toRightOf="@id/match_item_away_logo"
+        android:layout_toEndOf="@id/match_item_away_logo"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/match_item_result"/>
+
+    </RelativeLayout>

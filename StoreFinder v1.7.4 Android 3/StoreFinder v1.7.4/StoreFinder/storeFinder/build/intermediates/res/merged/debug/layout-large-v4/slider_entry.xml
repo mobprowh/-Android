@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageViewSlider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/slider_placeholder"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/empty_distance"
+        android:id="@+id/tvDistance"
+        android:background="@color/slider_bg_label"
+        android:padding="@dimen/dimen_5dp"
+        android:minWidth="150dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="@dimen/dimen_100dp"
+        android:textColor="@color/text_white_cloor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:background="@color/slider_bg_label"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_10dp" >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textColor="@color/text_white_cloor"
+            android:textSize="@dimen/text_size_22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Small Text"
+            android:textColor="@color/text_white_cloor"
+            android:textSize="@dimen/text_size_20sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

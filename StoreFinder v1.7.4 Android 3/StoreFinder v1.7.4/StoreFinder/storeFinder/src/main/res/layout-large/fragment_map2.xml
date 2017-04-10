@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	xmlns:map="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.projects.storefinder.MainActivity">
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" >
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" >
+
+			<fragment
+				android:id="@+id/googleMap"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				class="com.google.android.gms.maps.SupportMapFragment"
+				tools:context="projects.com.storefinder.MapsActivity"/>
+
+
+			<com.libraries.drawingview.DrawingView
+				android:id="@+id/drawingView"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent" />
+		</FrameLayout>
+
+		<com.libraries.sliding.MGSliding
+			android:id="@+id/frameSliding"
+			android:layout_width="match_parent"
+			android:layout_height="250dp"
+			android:layout_gravity="bottom|center"
+			android:orientation="horizontal" >
+
+			<ImageView
+				android:id="@+id/imageViewThumb"
+				android:layout_width="match_parent"
+				android:layout_height="220dp"
+				android:scaleType="centerCrop"
+				android:src="@drawable/map_info_placeholder" />
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_gravity="bottom"
+				android:orientation="horizontal"
+				android:background="@color/slider_bg_label"
+				android:layout_height="wrap_content" >
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="bottom"
+					android:layout_weight="1"
+					android:orientation="vertical"
+					android:padding="@dimen/dimen_10dp" >
+
+					<TextView
+						android:id="@+id/tvTitle"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="@dimen/dimen_5dp"
+						android:text="Medium Text"
+						android:textColor="@color/text_white_cloor"
+						android:textSize="@dimen/text_size_20sp"
+						android:textStyle="bold" />
+
+					<TextView
+						android:id="@+id/tvSubtitle"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="@dimen/dimen_5dp"
+						android:lines="@integer/num_new_lines_2"
+						android:text="Small Text"
+						android:textColor="@color/text_white_cloor"
+						android:textSize="@dimen/text_size_16sp"/>
+
+				</LinearLayout>
+
+				<ToggleButton
+					android:id="@+id/toggleButtonFave"
+					android:layout_width="55dp"
+					android:layout_height="55dp"
+					android:layout_gravity="center"
+					android:layout_marginRight="@dimen/dimen_5dp"
+					android:background="@drawable/button_toggle_starred_selector"
+					android:textOff=""
+					android:textOn="" />
+
+			</LinearLayout>
+
+		</com.libraries.sliding.MGSliding>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="right|center"
+			android:layout_marginBottom="@dimen/dimen_40dp"
+			android:layout_marginRight="@dimen/dimen_5dp"
+			android:orientation="vertical" >
+
+			<ImageView
+				android:id="@+id/imgViewDraw"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/dimen_5dp"
+				android:src="@drawable/button_map_draw_selector" />
+
+			<ImageView
+				android:id="@+id/imgViewRefresh"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/dimen_5dp"
+				android:src="@drawable/button_map_refresh_selector" />
+
+			<ImageView
+				android:id="@+id/imgViewRoute"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/dimen_5dp"
+				android:src="@drawable/button_map_route_selector" />
+
+			<ImageView
+				android:id="@+id/imgViewLocation"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/dimen_5dp"
+				android:src="@drawable/button_map_location_selector" />
+
+			<ImageView
+				android:id="@+id/imgViewNearby"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/dimen_5dp"
+				android:src="@drawable/button_map_geofence_selector" />
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="@dimen/dimen_5dp"
+			android:layout_marginTop="@dimen/dimen_5dp"
+			android:orientation="vertical" >
+
+			<ImageView
+				android:id="@+id/imageView2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/ic_map_arrow" />
+
+			<TextView
+				android:id="@+id/tvDistance"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:textColor="@color/theme_black_color"
+				android:textSize="@dimen/text_size_14sp" />
+
+		</LinearLayout>
+
+	</FrameLayout>
+</RelativeLayout>

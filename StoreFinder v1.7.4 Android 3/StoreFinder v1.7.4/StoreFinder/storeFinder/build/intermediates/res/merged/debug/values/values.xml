@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <color name="bg_color">#fff3f3</color>
+    <color name="bg_gray_color">#f0f0f0</color>
+    <color name="bg_white_color">#ffffff</color>
+    <color name="com_facebook_blue">#3B5998</color>
+    <color name="com_facebook_loginview_text_color">#FFFFFF</color>
+    <color name="com_facebook_picker_search_bar_background">#f5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#bcbdc2</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#000000</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#FFFFFF</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#A6AED7</color>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <color name="list_text_color">#7c7c7c</color>
+    <color name="no_result_text_color">#929292</color>
+    <color name="number_bar">#00FF00</color>
+    <color name="overlay_color">#A7FFFFFF</color>
+    <color name="slider_bg_label">#A7000000</color>
+    <color name="text_white_cloor">#ffffff</color>
+    <color name="theme_black_color">#303030</color>
+    <color name="theme_black_color_opacity">#66303030</color>
+    <color name="theme_orange_color">#ff662e</color>
+    <color name="theme_orange_color_alpha_66">#D6ff662e</color>
+    <color name="unselected_text_color">#929292</color>
+    <color name="view_bg_color">#fff7f7f7</color>
+    <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="wallet_bright_foreground_holo_light">#ff000000</color>
+    <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="wallet_dim_foreground_holo_dark">#bebebe</color>
+    <color name="wallet_dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="wallet_dim_foreground_inverse_holo_dark">#323232</color>
+    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="wallet_highlighted_text_holo_light">#6633b5e5</color>
+    <color name="wallet_hint_foreground_holo_dark">#808080</color>
+    <color name="wallet_hint_foreground_holo_light">#808080</color>
+    <color name="wallet_holo_blue_light">#ff33b5e5</color>
+    <color name="wallet_link_text_light">#0000ee</color>
+    <color name="word_bar">#FF0000</color>
+    <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
+    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/></declare-styleable>
+    <declare-styleable name="RoundedImageView"><attr format="dimension" name="corner_radius"/><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="boolean" name="mutate_background"/><attr format="boolean" name="oval"/><attr name="android:scaleType"/></declare-styleable>
+    <declare-styleable name="WalletFragmentOptions"><attr format="enum" name="theme"><enum name="holo_dark" value="0"/><enum name="holo_light" value="1"/></attr><attr format="enum" name="environment"><enum name="production" value="1"/><enum name="sandbox" value="0"/><enum name="strict_sandbox" value="2"/></attr><attr format="reference" name="fragmentStyle"/><attr format="enum" name="fragmentMode"><enum name="buyButton" value="1"/><enum name="selectionDetails" value="2"/></attr></declare-styleable>
+    <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="dimension" name="buyButtonWidth"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="enum" name="buyButtonText"><enum name="buy_with_google" value="1"/><enum name="buy_now" value="2"/><enum name="book_now" value="3"/></attr><attr format="enum" name="buyButtonAppearance"><enum name="classic" value="1"/><enum name="grayscale" value="2"/><enum name="monochrome" value="3"/></attr><attr format="reference" name="maskedWalletDetailsTextAppearance"/><attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsBackground"/><attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsButtonBackground"/><attr format="color" name="maskedWalletDetailsLogoTextColor"/><attr format="enum" name="maskedWalletDetailsLogoImageType"><enum name="classic" value="1"/><enum name="monochrome" value="2"/></attr></declare-styleable>
+    <declare-styleable name="com_facebook_friend_picker_fragment"><attr format="boolean" name="multi_select"/></declare-styleable>
+    <declare-styleable name="com_facebook_login_view"><attr format="boolean" name="confirm_logout"/><attr format="boolean" name="fetch_user_info"/><attr format="string" name="login_text"/><attr format="string" name="logout_text"/></declare-styleable>
+    <declare-styleable name="com_facebook_picker_fragment"><attr format="boolean" name="show_pictures"/><attr format="string" name="extra_fields"/><attr format="boolean" name="show_title_bar"/><attr format="string" name="title_text"/><attr format="string" name="done_button_text"/><attr format="reference" name="title_bar_background"/><attr format="reference" name="done_button_background"/></declare-styleable>
+    <declare-styleable name="com_facebook_place_picker_fragment"><attr format="integer" name="radius_in_meters"/><attr format="integer" name="results_limit"/><attr format="string" name="search_text"/><attr format="boolean" name="show_search_box"/></declare-styleable>
+    <declare-styleable name="com_facebook_profile_picture_view"><attr name="preset_size"><enum name="small" value="-2"/><enum name="normal" value="-3"/><enum name="large" value="-4"/></attr><attr format="boolean" name="is_cropped"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="border_store_list">3dp</dimen>
+    <dimen name="com_facebook_loginview_compound_drawable_padding">12dp</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">12dp</dimen>
+    <dimen name="com_facebook_loginview_padding_left">12dip</dimen>
+    <dimen name="com_facebook_loginview_padding_right">16dp</dimen>
+    <dimen name="com_facebook_loginview_padding_top">12dp</dimen>
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_picker_place_image_size">64dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_tooltip_horizontal_padding">10dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64dp</dimen>
+    <dimen name="corner_radius_review">50dp</dimen>
+    <dimen name="dimen_100dp">100dp</dimen>
+    <dimen name="dimen_10dp">10dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+    <dimen name="dimen_30dp">30dp</dimen>
+    <dimen name="dimen_40dp">40dp</dimen>
+    <dimen name="dimen_55dp">55dp</dimen>
+    <dimen name="dimen_5dp">5dp</dimen>
+    <dimen name="dimen_60dp">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_22sp">22sp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+    <dimen name="text_size_30sp">30sp</dimen>
+    <dimen name="text_size_40sp">40sp</dimen>
+    <dimen name="text_size_60sp">60sp</dimen>
+    <dimen name="text_size__no_result">16sp</dimen>
+    <dimen name="text_size_slider_subtitle">14sp</dimen>
+    <dimen name="text_size_slider_title">16sp</dimen>
+    <drawable name="com_facebook_picker_default_separator_color">#33464c59</drawable>
+    <integer name="google_play_services_version">5089000</integer>
+    <integer name="num_cols">1</integer>
+    <integer name="num_new_lines_1">1</integer>
+    <integer name="num_new_lines_2">2</integer>
+    <integer name="num_new_lines_5">5</integer>
+    <integer name="num_news_line_3">3</integer>
+    <string name="IO_Exception_getFromLocation">IO Exception in Geocoder.getFromLocation()</string>
+    <string name="about_us">About Us</string>
+    <string name="about_us_detail">We are small team that aims for awesome Game and Apps Development. There are no application we cannot do as long as there is music that keeps us going and creating wonderful apps.\n\nIf you are looking for awesome Teams that will make your Apps interactive and awesome. Just contact us.</string>
+    <string name="action_error">Action Error</string>
+    <string name="action_settings">Settings</string>
+    <string name="alert_logout_user_no">No</string>
+    <string name="alert_logout_user_title">Logout User</string>
+    <string name="alert_logout_user_title_details">Are you sure you want to logout?</string>
+    <string name="alert_logout_user_yes">Yes</string>
+    <string name="all_categories">All Categories</string>
+    <string name="anim_fold">Fold</string>
+    <string name="anim_scale">Scale</string>
+    <string name="anim_slide">Slide Up</string>
+    <string name="anim_zoom">Zoom</string>
+    <string name="animation">Settings</string>
+    <string name="app_id">894251437257928</string>
+    <string name="app_name">Store Finder</string>
+    <string name="average_based_on">average based on</string>
+    <string name="button_login">Login</string>
+    <string name="button_login_to_facebook">Login to Facebook</string>
+    <string name="button_login_to_twitter">Login to Twitter</string>
+    <string name="call_block_error">Cannot proceed to calling.</string>
+    <string name="cancel">Cancel</string>
+    <string name="cannot_determine_direction">Failed to get direction.</string>
+    <string name="cannot_determine_location">Cannot determine location.</string>
+    <string name="cannot_proceed">Cannot proceed because details isnt provided.</string>
+    <string name="categories">Categories</string>
+    <string name="celsius">°C</string>
+    <string name="chars_left">Char(s) left</string>
+    <string name="choose_browser">Choose a browser :</string>
+    <string name="choose_email_client">Choose an Email client :</string>
+    <string name="click_to_add_edit">Click to Add/Edit</string>
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log in with Facebook</string>
+    <string name="com_facebook_loginview_log_out_action">Log out</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_tooltip_default">New! You\'re in control - choose what info you want to share with apps.</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log in…</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged in</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not logged in</string>
+    <string name="comments">Comment(s)</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">This app won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_installation_title">An application requires installation of Google Play services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_date_text">The date on the device appears to be incorrect. Please check the date on the device.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">This app won\'t run unless you update Google Play services.</string>
+    <string msgid="1788179980625863495" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="download_app">Hey! I found this store. Download our app.</string>
+    <string name="editing_fields">**When editing all fields are necessary.</string>
+    <string name="email">Email</string>
+    <string name="email_body">Hi, your store is awesome.</string>
+    <string name="email_body_company">Hi! Good day.</string>
+    <string name="email_subject">Store Inquiry</string>
+    <string name="email_subject_company">Store Finder Inquiry</string>
+    <string name="empty_distance">----</string>
+    <string name="empty_error">Text Empty Error</string>
+    <string name="empty_error_details">Provide text for review.</string>
+    <string name="enter_radius">Enter Radius in KM</string>
+    <string name="enter_radius_in_km">Radius in KM:</string>
+    <string name="fahrenheit">°F</string>
+    <string name="failed_data">Failed to get data.</string>
+    <string name="featured">Featured</string>
+    <string name="field_error">Field Error</string>
+    <string name="find_nearby">Find Nearby</string>
+    <string name="full_name">Full Name</string>
+    <string name="gps_not_on">GPS is currently turn off. Please enable it under your mobile Settings > Location.</string>
+    <string name="handset_not_supported">This handset doest not support telephony service.</string>
+    <string name="header_categories">Categories</string>
+    <string name="header_extras">Extras</string>
+    <string name="header_users">Users</string>
+    <string name="home">Home</string>
+    <string name="km">Km.</string>
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+    <string name="loading">Loading...</string>
+    <string name="location_error">Location Error</string>
+    <string name="login">Login</string>
+    <string name="login_error">Login Error</string>
+    <string name="login_error_rating">You need to login before you can rate a store.</string>
+    <string name="login_error_review">You need to login before you can post review.</string>
+    <string name="login_error_undetermined">Error encountered during connecting.</string>
+    <string name="logout">Logout</string>
+    <string name="map">Map</string>
+    <string name="mi">Mi</string>
+    <string name="network_error">Network Error</string>
+    <string name="news">News</string>
+    <string name="no_image_to_display">No image to be displayed.</string>
+    <string name="no_name"/>
+    <string name="no_network_connection">No Network Connection.</string>
+    <string name="no_rating">No Rating</string>
+    <string name="no_results_found">No Results Found.</string>
+    <string name="ok">OK</string>
+    <string name="password">Password</string>
+    <string name="password_length_error">Password must be at lease 8 characters long.</string>
+    <string name="placeholder_password">Password</string>
+    <string name="placeholder_review">Review</string>
+    <string name="placeholder_username">Username</string>
+    <string name="problems_encountered_facebook">Problems encountered while posting to Facebook.</string>
+    <string name="problems_encountered_login">Problems encountered during login.</string>
+    <string name="profile">Profile</string>
+    <string name="publish_cancelled">Publish cancelled.</string>
+    <string name="publish_error">Publishing Error</string>
+    <string name="radius">Radius</string>
+    <string name="rate">Rate</string>
+    <string name="rate_it">Rate It!</string>
+    <string name="rate_store">Rate Store</string>
+    <string name="rating">rating</string>
+    <string name="rating_error">Rating Error</string>
+    <string name="rating_error_finish">You have finished rating this store.</string>
+    <string name="rating_error_something_wrong">Error while connecting. Please rate again later.</string>
+    <string name="register">Register</string>
+    <string name="review">Review</string>
+    <string name="route_error">Route Error</string>
+    <string name="route_error_details">Cannot route current location.</string>
+    <string name="search">Search</string>
+    <string name="search_by_name_or_address">Search by Name or Address</string>
+    <string name="search_nearby">Search Nearby</string>
+    <string name="select_one_store">You need to select one store by tapping the Info window.</string>
+    <string name="share">Share</string>
+    <string name="sms_body">Hi, your store is awesome.</string>
+    <string name="some_fields_are_missing">Some fields are missing.</string>
+    <string name="starred">Starred</string>
+    <string name="store_nearby_radius">Store Nearby Radius</string>
+    <string name="tap_back_again_to_exit">Please tap back again to exit the app.</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="terms_and_conditions_details">1.) Lorem Ipsum dolor\n\nLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n2.) Lorem Ipsum dolor\n\nLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n3.) Lorem Ipsum dolor\n\nLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="terms_condition">Terms &amp; Conditions</string>
+    <string name="text_empty">-------</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="user">User</string>
+    <string name="user_name">Username</string>
+    <string name="view">View</string>
+    <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
+    <string name="weather">Weather</string>
+    <string name="weather_placeholder">-------</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@color/view_bg_color</item>
+    	<item name="android:colorBackground">@color/view_bg_color</item>
+    	<item name="android:actionBarStyle">@style/CustomActionBar</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_header</item>
+    </style>
+    <style name="CustomActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/nav_bar_pattern</item>
+    </style>
+    <style name="Theme.IAPTheme" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+    <style name="WalletFragmentDefaultButtonTextAppearance">
+        <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_light</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_light</item>
+        <item name="android:textColorLink">@color/wallet_link_text_light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance" parent="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textColor">@color/wallet_secondary_text_holo_dark</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_dark</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_dark</item>
+        <item name="android:textColorLink">@color/wallet_holo_blue_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WalletFragmentDefaultStyle">
+        <item name="buyButtonHeight">48dp</item>
+        <item name="buyButtonWidth">match_parent</item>
+        <item name="buyButtonText">buy_with_google</item>
+        <item name="buyButtonAppearance">classic</item>
+        <item name="maskedWalletDetailsTextAppearance">@style/WalletFragmentDefaultDetailsTextAppearance</item>
+        <item name="maskedWalletDetailsHeaderTextAppearance">@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
+        <item name="maskedWalletDetailsBackground">@color/wallet_bright_foreground_holo_light</item>
+        <item name="maskedWalletDetailsButtonBackground">@android:drawable/btn_default</item>
+        <item name="maskedWalletDetailsButtonTextAppearance">@style/WalletFragmentDefaultButtonTextAppearance</item>
+        <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
+        <item name="maskedWalletDetailsLogoImageType">classic</item>
+    </style>
+    <style name="com_facebook_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/com_facebook_button_blue</item>
+        <item name="android:textColor">@color/com_facebook_loginview_text_color</item>
+        <item name="android:textSize">@dimen/com_facebook_loginview_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/com_facebook_loginview_padding_left</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:width">205dp</item>
+        <item name="android:height">44dp</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_silver</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#4B5164</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="ratingBarList" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/star_rating_bar_full</item>
+        <item name="android:minHeight">18dip</item>
+        <item name="android:maxHeight">18dip</item>
+    </style>
+    <style name="ratingBarUserRating" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/star_rating_bar_user_full</item>
+        <item name="android:minHeight">72dip</item>
+        <item name="android:maxHeight">72dip</item>
+    </style>
+    <style name="tooltip_bubble_text">
+	    <item name="android:textColor">@android:color/white</item>
+	    <item name="android:gravity">left</item>
+	    <item name="android:textSize">12sp</item>
+	    <item name="android:shadowDy">-1</item>
+	    <item name="android:shadowRadius">0.25</item>
+	    <item name="android:shadowColor">#40000000</item>
+    </style>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frameCategory"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="@dimen/dimen_20dp" >
+
+            <ImageView
+                android:id="@+id/imgViewIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_home" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:text="Medium Text"
+                android:textColor="@color/text_white_cloor"
+                android:textSize="@dimen/text_size_22sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+    
+    
+    <FrameLayout
+        android:id="@+id/frameHeader"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/dimen_1dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="@dimen/dimen_10dp" >
+
+            <TextView
+                android:id="@+id/tvTitleHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:textColor="@color/text_white_cloor"
+                android:textSize="@dimen/text_size_22sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:background="@drawable/line_divider_white_pattern"
+            android:layout_gravity="top" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:background="@drawable/line_divider_white_pattern"
+            android:layout_gravity="bottom" />
+
+    </FrameLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/jonnelryanbuisan/Documents/Android/AndroidStudio/Personal/RestaurantLocator/app/src/main/res/layout-large/menu_entry.xml -->

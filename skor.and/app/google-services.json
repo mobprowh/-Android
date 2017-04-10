@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "610603780630",
+    "firebase_url": "https://bahisadam-1470684609540.firebaseio.com",
+    "project_id": "bahisadam-1470684609540",
+    "storage_bucket": "bahisadam-1470684609540.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610603780630:android:6d0d79cbc4fc24ee",
+        "android_client_info": {
+          "package_name": "bahisadam.com.bahisadam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610603780630-gsruk375ac8fgb68v4k5stbiatltk2cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV35webpySzNRtA7_lSq12Gr0bvp56Plc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-80196837-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

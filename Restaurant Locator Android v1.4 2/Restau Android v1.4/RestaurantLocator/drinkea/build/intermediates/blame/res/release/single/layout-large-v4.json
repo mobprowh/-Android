@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/res/merged/release/layout-large-v4/fragment_search.xml",
+        "source": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/src/main/res/layout-large/fragment_search.xml"
+    },
+    {
+        "merged": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/res/merged/release/layout-large-v4/restaurant_entry.xml",
+        "source": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/src/main/res/layout-large/restaurant_entry.xml"
+    },
+    {
+        "merged": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/res/merged/release/layout-large-v4/sub_detail_about.xml",
+        "source": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/src/main/res/layout-large/sub_detail_about.xml"
+    },
+    {
+        "merged": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/res/merged/release/layout-large-v4/tab.xml",
+        "source": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/src/main/res/layout-large/tab.xml"
+    },
+    {
+        "merged": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/res/merged/release/layout-large-v4/menu_entry.xml",
+        "source": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/src/main/res/layout-large/menu_entry.xml"
+    },
+    {
+        "merged": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/res/merged/release/layout-large-v4/slider_entry.xml",
+        "source": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/src/main/res/layout-large/slider_entry.xml"
+    },
+    {
+        "merged": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/res/merged/release/layout-large-v4/empty_list.xml",
+        "source": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/src/main/res/layout-large/empty_list.xml"
+    },
+    {
+        "merged": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/res/merged/release/layout-large-v4/category_entry.xml",
+        "source": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/src/main/res/layout-large/category_entry.xml"
+    },
+    {
+        "merged": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/res/merged/release/layout-large-v4/splash.xml",
+        "source": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/src/main/res/layout-large/splash.xml"
+    }
+]

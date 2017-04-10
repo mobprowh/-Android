@@ -1,0 +1,482 @@
+[
+    {
+        "outputFile": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/res/merged/release/values-af/values-af.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 128,
+                    "endOffset": 229
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1944,
+                        "endColumn": 128,
+                        "endOffset": 2068
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 234,
+                    "endColumn": 169,
+                    "endOffset": 399
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1774,
+                        "endColumn": 169,
+                        "endOffset": 1939
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 404,
+                    "endColumn": 126,
+                    "endOffset": 526
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1647,
+                        "endColumn": 126,
+                        "endOffset": 1769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 531,
+                    "endColumn": 168,
+                    "endOffset": 695
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 836,
+                        "endColumn": 172,
+                        "endOffset": 1004
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 700,
+                    "endColumn": 124,
+                    "endOffset": 820
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1522,
+                        "endColumn": 124,
+                        "endOffset": 1642
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 825,
+                    "endColumn": 193,
+                    "endOffset": 1014
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1131,
+                        "endColumn": 193,
+                        "endOffset": 1320
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1019,
+                    "endColumn": 196,
+                    "endOffset": 1211
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1325,
+                        "endColumn": 196,
+                        "endOffset": 1517
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1216,
+                    "endColumn": 121,
+                    "endOffset": 1333
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 1009,
+                        "endColumn": 121,
+                        "endOffset": 1126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1338,
+                    "endColumn": 206,
+                    "endOffset": 1540
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2788,
+                        "endColumn": 206,
+                        "endOffset": 2990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1545,
+                    "endColumn": 126,
+                    "endOffset": 1667
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2661,
+                        "endColumn": 126,
+                        "endOffset": 2783
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1672,
+                    "endColumn": 167,
+                    "endOffset": 1835
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 668,
+                        "endColumn": 167,
+                        "endOffset": 831
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1840,
+                    "endColumn": 170,
+                    "endOffset": 2006
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2490,
+                        "endColumn": 170,
+                        "endOffset": 2656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 2011,
+                    "endColumn": 117,
+                    "endOffset": 2124
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2372,
+                        "endColumn": 117,
+                        "endOffset": 2485
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 2129,
+                    "endColumn": 186,
+                    "endOffset": 2311
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 302,
+                        "endColumn": 186,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 2316,
+                    "endColumn": 178,
+                    "endOffset": 2490
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 489,
+                        "endColumn": 178,
+                        "endOffset": 663
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2495,
+                    "endColumn": 131,
+                    "endOffset": 2622
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 131,
+                        "endOffset": 297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2627,
+                    "endColumn": 143,
+                    "endOffset": 2766
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2995,
+                        "endColumn": 143,
+                        "endOffset": 3134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2771,
+                    "endColumn": 200,
+                    "endOffset": 2967
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3508,
+                        "endColumn": 200,
+                        "endOffset": 3704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2972,
+                    "endColumn": 244,
+                    "endOffset": 3212
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 3263,
+                        "endColumn": 244,
+                        "endOffset": 3503
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 3217,
+                    "endColumn": 123,
+                    "endOffset": 3336
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3139,
+                        "endColumn": 123,
+                        "endOffset": 3258
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 3341,
+                    "endColumn": 109,
+                    "endOffset": 3446
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 3709,
+                        "endColumn": 109,
+                        "endOffset": 3814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 3451,
+                    "endColumn": 169,
+                    "endOffset": 3616
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2202,
+                        "endColumn": 169,
+                        "endOffset": 2367
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 3621,
+                    "endColumn": 128,
+                    "endOffset": 3745
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2073,
+                        "endColumn": 128,
+                        "endOffset": 2197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 3750,
+                    "endColumn": 92,
+                    "endOffset": 3838
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 3819,
+                        "endColumn": 92,
+                        "endOffset": 3907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 3843,
+                    "endColumn": 108,
+                    "endOffset": 3947
+                },
+                "from": {
+                    "file": "/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/res/values-af/common_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 3912,
+                        "endColumn": 108,
+                        "endOffset": 4016
+                    }
+                }
+            }
+        ]
+    }
+]

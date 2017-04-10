@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#fff"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    card_view:contentPaddingBottom="5dp"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation="1dp"
+    card_view:cardUseCompatPadding="true"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#f7f7f7"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/header_padding_top_bottom"
+                    android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                    android:textStyle="bold"
+                    android:textColor="@color/headerTextColor"
+                    android:text="@string/whoWillWin"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp" android:background="#dfdfdf"/>
+            </LinearLayout>
+            <LinearLayout
+                android:paddingTop="@dimen/padding_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:weightSum="3"
+                android:layout_gravity="center|bottom"
+                android:gravity="bottom">
+
+                <!-- start of winner 1 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="@integer/grid_span_1"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/vote1">
+
+                        <com.txusballesteros.widgets.FitChart
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            app:strokeSize="4dp"
+                            app:valueStrokeColor="#5c778a"
+                            app:backStrokeColor="#b5b7b5"
+                            android:layout_gravity="center"
+                            app:animationMode="overdraw"
+                            android:id="@+id/chart1" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/label1"
+                                android:maxWidth="60dp"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:textColor="#212121"
+                                android:gravity="center"
+                                android:text="1"/>
+
+
+
+                        </LinearLayout>
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/chartsHomeTeam"
+                        android:textAlignment="center"
+                        android:text="@string/homeTeam"/>
+                </LinearLayout>
+                <!--end of winner1 -->
+                <!-- start of winner X -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="@integer/grid_span_1"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/voteX">
+
+                        <com.txusballesteros.widgets.FitChart
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            app:strokeSize="4dp"
+                            app:valueStrokeColor="#5c778a"
+                            app:backStrokeColor="#b5b7b5"
+                            android:layout_gravity="center"
+                            app:animationMode="overdraw"
+                            android:id="@+id/chartx" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/labelX"
+                                android:maxWidth="60dp"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:textColor="#212121"
+                                android:gravity="center"
+                                android:text="X"/>
+
+
+
+                        </LinearLayout>
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/draw"/>
+                </LinearLayout>
+                <!--end of winner X -->
+                <!-- start of winner 2 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="@integer/grid_span_1"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/vote2">
+
+                        <com.txusballesteros.widgets.FitChart
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            app:strokeSize="4dp"
+                            app:valueStrokeColor="#5c778a"
+                            app:backStrokeColor="#b5b7b5"
+                            android:layout_gravity="center"
+                            app:animationMode="overdraw"
+                            android:id="@+id/chart2" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/label2"
+                                android:maxWidth="60dp"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:textColor="#212121"
+                                android:gravity="center"
+                                android:text="2"/>
+
+
+
+                        </LinearLayout>
+                    </FrameLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:id="@+id/chartsAwayTeam"
+                        android:text="@string/awayTeam"/>
+                </LinearLayout>
+                <!--end of winner 2 -->
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>

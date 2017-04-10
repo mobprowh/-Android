@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/libs/jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/pre-dexed/debug/jackson-annotations-2.2.2_289c378b209d123c4b334749629ff84673edb516.jar" />
+    </item>
+    <item
+        jar="/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/libs/jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/pre-dexed/debug/jackson-databind-2.2.2_c28ee1dbbdd14ae02e4507bef7fa203e758e494b.jar" />
+    </item>
+    <item
+        jar="/Users/alessandroperezv/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/pre-dexed/debug/support-v4-19.1.0_b9006aca22c904bb9568e3ca18c34c5cdace2932.jar" />
+    </item>
+    <item
+        jar="/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa">
+        <dex dex="/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-5.0.89_5e7854791287837dc372c6ccd0e84fb541694649.jar" />
+    </item>
+    <item
+        jar="/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/libs/jackson-core-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/pre-dexed/debug/jackson-core-2.2.2_a9223a9171f6c4dacc4c3904005141661908c566.jar" />
+    </item>
+    <item
+        jar="/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/libs/universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="0faef4253b4ba28f47d7bd56a1d438f79ab04e92">
+        <dex dex="/Users/alessandroperezv/Downloads/Restaurant Locator Android v1.4 2/Restau Android v1.4/RestaurantLocator/drinkea/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.2-SNAPSHOT-with-sources_a11e1d0e4f37a37a4faa05afdad3f05d2c351ff4.jar" />
+    </item>
+
+</items>

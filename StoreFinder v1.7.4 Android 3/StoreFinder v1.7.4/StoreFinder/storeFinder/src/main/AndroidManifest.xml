@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.projects.storefinder"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" >
+    </supports-screens>
+
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:screenOrientation="sensorPortrait"
+            android:name="com.projects.storefinder.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.projects.activities.ProfileActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:label="@string/app_name" />
+        
+        <activity android:name="com.projects.activities.RegisterActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:label="@string/app_name" />
+        
+        <activity android:name="com.projects.activities.LoginActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:label="@string/app_name" />
+        
+        <activity android:name="com.projects.activities.DetailActivity"
+            android:label="@string/app_name" />
+        
+        <activity android:name="com.projects.activities.ReviewActivity"
+            android:label="@string/app_name" />
+        
+        <activity android:name="com.projects.activities.NewReviewActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:label="@string/app_name" />
+        
+        <activity android:name="com.projects.activities.ImageViewerActivity"
+            android:label="@string/app_name" />
+        
+        <activity android:name="com.projects.activities.NewsDetailActivity"
+            android:label="@string/app_name" />
+        
+        <activity android:name="com.projects.activities.StoreActivity"
+            android:label="@string/app_name" />
+        
+        <activity android:name="com.projects.activities.SearchResultActivity"
+            android:label="@string/app_name" />
+        
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAEPO9N_ol2AgFszSSSd7tVGRjtcJO6SR4" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id"/>
+
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id"/>
+
+        <provider
+            android:authorities="com.facebook.app.NativeAppCallContentProvider894251437257928"
+            android:name="com.facebook.NativeAppCallContentProvider"
+            android:exported="true"/>
+
+        <receiver android:name="com.libraries.receiver.StoreFinderBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.platform.AppCallResultBroadcast" />
+            </intent-filter>
+        </receiver>
+        
+    </application>
+
+</manifest>

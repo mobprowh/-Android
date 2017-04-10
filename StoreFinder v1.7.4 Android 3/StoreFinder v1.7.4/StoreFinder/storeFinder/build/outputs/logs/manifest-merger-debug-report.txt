@@ -1,0 +1,223 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:2:1-111:12
+	xmlns:android
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml
+		INJECTED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml
+		INJECTED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml
+		INJECTED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:7:5-12:24
+	android:largeScreens
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:8:9-36
+	android:normalScreens
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:9:9-37
+	android:xlargeScreens
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:11:9-37
+	android:smallScreens
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:10:9-36
+uses-feature#android.hardware.telephony
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:14:5-88
+	android:required
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:14:61-85
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:14:19-60
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:15:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:16:2-76
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:16:19-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:17:2-78
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:17:19-75
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:18:2-95
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:18:19-92
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:19:2-78
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:19:19-75
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:20:2-76
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:20:19-73
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:21:2-66
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:21:19-63
+application
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:23:5-109:19
+MERGED from [StoreFinder:facebookSDK:unspecified] /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services:5.0.89] /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:28:9-41
+	android:allowBackup
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:26:9-35
+	android:icon
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:27:9-45
+	android:theme
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:29:9-40
+	android:hardwareAccelerated
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:25:9-44
+	android:largeHeap
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:24:9-33
+activity#com.projects.storefinder.MainActivity
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:30:9-38:20
+	android:screenOrientation
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:31:13-55
+	android:label
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:33:13-45
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:32:13-65
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:36:27-74
+activity#com.projects.activities.ProfileActivity
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:40:9-42:48
+	android:windowSoftInputMode
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:41:13-67
+	android:label
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:40:19-73
+activity#com.projects.activities.RegisterActivity
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:44:9-46:48
+	android:windowSoftInputMode
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:45:13-67
+	android:label
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:46:13-45
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:44:19-74
+activity#com.projects.activities.LoginActivity
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:48:9-50:48
+	android:windowSoftInputMode
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:49:13-67
+	android:label
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:48:19-71
+activity#com.projects.activities.DetailActivity
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:52:9-53:48
+	android:label
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:53:13-45
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:52:19-72
+activity#com.projects.activities.ReviewActivity
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:55:9-56:48
+	android:label
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:56:13-45
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:55:19-72
+activity#com.projects.activities.NewReviewActivity
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:58:9-60:48
+	android:windowSoftInputMode
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:59:13-67
+	android:label
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:60:13-45
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:58:19-75
+activity#com.projects.activities.ImageViewerActivity
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:62:9-63:48
+	android:label
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:63:13-45
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:62:19-77
+activity#com.projects.activities.NewsDetailActivity
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:65:9-66:48
+	android:label
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:66:13-45
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:65:19-76
+activity#com.projects.activities.StoreActivity
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:68:9-69:48
+	android:label
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:69:13-45
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:68:19-71
+activity#com.projects.activities.SearchResultActivity
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:71:9-72:48
+	android:label
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:72:13-45
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:71:19-78
+activity#com.google.android.gms.ads.AdActivity
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:74:9-75:124
+	android:configChanges
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:75:13-122
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:74:19-71
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:77:9-79:71
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:78:13-62
+	android:value
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:79:13-68
+meta-data#com.google.android.gms.version
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:81:9-83:68
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:82:13-58
+	android:value
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:83:13-66
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:85:9-87:45
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:86:13-58
+	android:value
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:87:13-43
+activity#com.facebook.LoginActivity
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:89:9-92:48
+	android:label
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:92:13-45
+	android:theme
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:91:13-72
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:90:13-54
+provider#com.facebook.NativeAppCallContentProvider
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:98:9-101:38
+	android:exported
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:101:13-36
+	android:authorities
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:99:13-95
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:100:13-69
+receiver#com.libraries.receiver.StoreFinderBroadcastReceiver
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:103:9-107:20
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:103:19-85
+intent-filter#com.facebook.platform.AppCallResultBroadcast
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:104:13-106:29
+action#com.facebook.platform.AppCallResultBroadcast
+ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:105:17-87
+	android:name
+		ADDED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml:105:25-84
+uses-sdk
+INJECTED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [StoreFinder:facebookSDK:unspecified] /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/AndroidManifest.xml:20:5-22:40
+MERGED from [com.google.android.gms:play-services:5.0.89] /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/com.google.android.gms/play-services/5.0.89/AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		INJECTED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml
+		INJECTED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml
+		INJECTED from /Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/AndroidManifest.xml

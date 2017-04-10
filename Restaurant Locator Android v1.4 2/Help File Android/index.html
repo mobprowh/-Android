@@ -1,0 +1,305 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Restau! Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Restau! Restaurant Locator Android Full Application&rdquo; Documentation by &ldquo;MGAppcelerator&rdquo; </h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Restau! Restaurant Locator Android Full Application&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 05/06/2014<br>
+					Updated: 09/29/2015<br>
+					By: MGAppcelerator<br>
+					Email: <a href="mailto:mangasaurgames@gmail.com">mangasaurgames@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my application. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/MGAppcelerator">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		<hr>
+		
+
+
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#appQuickstart">App Quick Start</a></li>
+			<li><a href="#appFeatures">App Features</a></li>
+			<li><a href="#fileContent">File Content</a></li>
+			<li><a href="#pathUrl">Changing the URL Path of the Data</a></li>
+
+			<li><a href="#dataFormat">Changing Data File Format(JSON/XML)</a></li>
+			<li><a href="#jsonDataFormatRestaurants">Adding Entry in JSON File Format (Restaurants) (Optional)</a></li>
+			<li><a href="#jsonDataFormatCategories">Adding Entry in JSON File Format (Categories) (Optional)</a></li>
+			<li><a href="#jsonDataFormatPhotos">Adding Entry in JSON File Format (Photos) (Optional)</a></li>
+
+			<li><a href="#xmlDataFormatRestaurants">Adding Entry in XML File Format (Restaurants) (Optional)</a></li>
+			<li><a href="#xmlDataFormatCategories">Adding Entry in XML File Format (Categories) (Optional)</a></li>
+			<li><a href="#xmlDataFormatPhotos">Adding Entry in XML File Format (Photos) (Optional)</a></li>
+
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		<hr>
+		<hr class="space">
+		
+
+
+
+		<h3 id="appQuickstart"><strong>A) App Quick Start</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<h3>Some Information you need to know</strong></h3>
+		<img src="assets/images/feature-overview.jpg" alt="" />
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+
+		<h3 id="appFeatures"><strong>B) App Features</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<h3>Features</strong></h3>
+		<ul>
+			<li>1 file data to be uploaded in the server (choose between XML and JSON file)</li>
+			<li>Local Data Store for data storage</li>
+			<li>Supports offline usage</li>
+			<li>Image Caching</li>
+			<li>Call Integration</li>
+			<li>Web Integration</li>
+			<li>Email Integration</li>
+			<li>Photo Galleries</li>
+			<li>Image Slider for featured restaurants</li>
+			<li>Map Routing</li>
+			<li>Map distance calculation</li>
+			<li>Add to Favorites for easy access of restuarant</li>
+			<li>Photo Galleries suppors zoom and panning</li>
+			<li>Restaurant Categories to classify what each restaurant type</li>
+		</ul>
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+
+
+		<h3 id="fileContent"><strong>C) File Content</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<p>The file you purchase contains the following:</p>
+		<ul>
+			<li>Same XML and JSON file to be uploaded in the server.</li>
+			<li>Project File</li>
+		</ul>
+		<br />
+		<br />
+		<p>You can use <strong>.php extension</strong> file as long as it renders correctly the format inside the data.json/data.xml file nothing to worry in the application side.</p>
+		<br />
+		<br />
+		<img src="assets/images/restau-file-content.png" alt="" />
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+
+
+		<h3 id="pathUrl"><strong>D) Changing the URL Path of the Data</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<p>In Project Explorer, Locate <strong>Config.java file </strong> under <strong>RestaurantLocator > src >com.config package</strong> then select and open <strong>Config.java</strong></p>
+		<img src="assets/images/restau-config-h.png" alt="" />
+		<br />
+		<br />
+		<p>Change the approriate URL Path of the <strong>XML/JSON/PHP File</strong> file you uploaded in the server.</p>
+		<img src="assets/images/restau-xml-json.png" alt="" />
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+
+
+
+		<h3 id="dataFormat"><strong>E) Changing Data File Format(JSON/XML)</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<p>In the same file, <strong>Config.java</strong>, locate <strong>WILL_USE_JSON_FORMAT</strong></p>
+		<p>Changing this to <strong>YES</strong> will use <strong>JSON Data Format</strong></p>
+		<p>Changing this to <strong>NO</strong> will use <strong>XML Data Format</strong></p> 
+		<img src="assets/images/restau-data-format.png" alt="" />
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+
+
+		<h3 id="jsonDataFormatRestaurants"><strong>F) Adding Entry in JSON File Format (Restaurants) (Optional)</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<p>In <strong>Restaurant Locator </strong> folder, Go to <strong>Server File</strong> folder and open the JSON file using your favorite text editor</p>
+		<p>In the <strong>restaurants</strong>  object after the <strong>[</strong>  and before the <strong>]</strong>  place the following, separated by comma each entry</p>
+		<p>Fill up with your data inside the blank quotes</p> 
+		<p>"restaurant_id", "featured", "created_at", "category_id" requires <strong>INTEGER VALUES</strong> inside e.g. "3" </p> 
+		<p>"food_rating", "price_rating" requires <strong>FLOAT VALUES</strong> inside e.g. "3.5" </p> 
+		<p>"lat", "lon" requires <strong>DOUBLE VALUES</strong> inside e.g. "125.3441" </p> 
+		<p>and the rest requires <strong>TEXT VALUES</strong> inside e.g. "Good to see." </p> 
+		<img src="assets/images/restau-json-format-restaurants.png" alt="" />
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+
+
+		<h3 id="jsonDataFormatCategories"><strong>G) Adding Entry in JSON File Format (Categories) (Optional)</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<p>In <strong>Restaurant Locator </strong> folder, Go to <strong>Server File</strong> folder and open the JSON file using your favorite text editor</p>
+		<p>In the <strong>categories</strong>  object after the <strong>[</strong> and before the <strong>]</strong>  place the following, separated by comma each entry</p>
+		<p>Fill up with your data inside the blank quotes</p> 
+		<p>"category_id", "created_at" requires <strong>INTEGER VALUES</strong> inside e.g. "1" </p> 
+		<p>and the rest requires <strong>TEXT VALUES</strong> inside e.g. "Singapore Restaurants" </p> 
+		<img src="assets/images/restau-json-format-categories.png" alt="" />
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+
+
+		<h3 id="jsonDataFormatPhotos"><strong>H) Adding Entry in JSON File Format (Photos) (Optional)</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<p>In <strong>Restaurant Locator </strong> folder, Go to <strong>Server File</strong> folder and open the JSON file using your favorite text editor</p>
+		<p>In the <strong>photos</strong>  object after the <strong>[</strong> and before the <strong>]</strong>  place the following, separated by comma each entry</p>
+		<p>Fill up with your data inside the blank quotes</p> 
+		<p>"photo_id", "created_at", "restaurant_id" requires <strong>INTEGER VALUES</strong> inside e.g. "1" </p> 
+		<p>and the rest requires <strong>TEXT VALUES</strong> inside e.g. "http://someUrl.com/image.png" </p> 
+		<img src="assets/images/restau-xml-format-photos.png" alt="" />
+		<br />
+		<br />
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+
+
+
+
+		<h3 id="xmlDataFormatRestaurants"><strong>I) Adding Entry in XML File Format (Restaurants) (Optional)</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<p>In <strong>Restaurant Locator Android </strong> folder, Go to <strong>Server File</strong> folder and open the JSON file using your favorite text editor</p>
+		<p>In the <strong>restaurants</strong>  tag,  place an entry inside the <strong>&lt;restaurants&gt;&lt;/restaurants&gt;</strong> tag</p>
+		<p>Fill up with your data inside the blank quotes</p> 
+		<p>"restaurant_id", "featured", "created_at", "category_id" requires <strong>INTEGER VALUES</strong> inside e.g. "3" </p> 
+		<p>food_rating, price_rating requires <strong>FLOAT VALUES</strong> inside e.g. 3.5 </p> 
+		<p>lat, lon requires <strong>DOUBLE VALUES</strong> inside e.g. 125.3441 </p> 
+		<p>and the rest requires <strong>TEXT VALUES</strong> inside e.g. Good to see. </p> 
+		<img src="assets/images/restau-xml-format-restaurants.png" alt="" />
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+
+
+
+		<h3 id="xmlDataFormatCategories"><strong>J) Adding Entry in XML File Format (Categories) (Optional)</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<p>In <strong>Restaurant Locator Android </strong> folder, Go to <strong>Server File</strong> folder and open the JSON file using your favorite text editor</p>
+		<p>In the <strong>categories</strong> tag,  place an entry inside the <strong>&lt;categories&gt;&lt;/categories&gt;</strong> tag</p>
+		<p>Fill up with your data inside the blank quotes</p> 
+		<p>category_id, created_at requires <strong>INTEGER VALUES</strong> inside e.g. 1 </p> 
+		<p>and the rest requires <strong>TEXT VALUES</strong> inside e.g. Singapore Restaurants </p> 
+		<img src="assets/images/restau-xml-format-categories.png" alt="" />
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+
+
+
+
+		<h3 id="xmlDataFormatPhotos"><strong>K) Adding Entry in XML File Format (Photos) (Optional)</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<p>In <strong>Restaurant Locator Android </strong> folder, Go to <strong>Server File</strong> folder and open the JSON file using your favorite text editor</p>
+		<p>In the <strong>photos</strong> tag,  place an entry inside the <strong>&lt;photos&gt;&lt;/photos&gt;</strong> tag</p>
+		<p>Fill up with your data inside the blank quotes</p> 
+		<p>photo_id, created_at, restaurant_id requires <strong>INTEGER VALUES</strong> inside e.g. 1 </p> 
+		<p>and the rest requires <strong>TEXT VALUES</strong> inside e.g. http://someUrl.com/image.png </p> 
+		<img src="assets/images/restau-xml-format-photos.png" alt="" />
+		<br />
+		<br />
+		<br />
+		<br />
+
+
+
+		<h2><strong>WARNING: PLEASE VALIDATE YOUR XML/JSON before uploading into the server to verify if its tag or object notation are correct. There are free validators online, just google it.</strong></h2>
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+
+
+		<h3 id="credits"><strong>L) Sources and Credits</strong> - <a href="#toc">top</a></h3>		
+		<br />
+		<br />
+		<p>I've used the following Libraries as listed.
+		<ul>
+			<li>Google Play Service Library</li>
+			<li>Google Directions</li>
+		</ul>
+		<hr>
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the application on CodeCanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		<p class="append-bottom alt large"><strong>MGAppcelerator</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		<hr class="space">
+
+
+
+
+	</div><!-- end div .container -->
+</body>
+</html>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/home_page"
+                android:title="Ana Sayfa" />
+        <item
+                android:id="@+id/iddaa_bulletin"
+                android:title="Iddaa Bülteni" />
+        <item
+                android:id="@+id/forecast_league"
+                android:title="Tahmin Ligi" />
+        <item
+            android:id="@+id/transfers"
+            android:title="Transferler" />
+    </group>
+</menu>

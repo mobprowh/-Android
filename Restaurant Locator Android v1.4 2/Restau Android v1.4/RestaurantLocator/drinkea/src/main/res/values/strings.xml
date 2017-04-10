@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Drinkea</string>
+    <string name="action_settings">Config</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+    <string name="tab_words">Palabras clave</string>
+    <string name="tab_numbers">Números</string>
+
+    <string name="favorites">Favoritos</string>
+    <string name="home">Inicio</string>
+
+    <string name="tab_restaurants">Sitios</string>
+    <string name="tab_categories">Categorias</string>
+<string name="tab_featured">¿Qué hay pa hoy?</string>
+    <string name="tab_search">Buscar</string>
+    <string name="tab_map">Ver Mapa</string>
+    <string name="tab_gallery">Galería</string>
+    <string name="galleries">Galerias</string>
+
+    <string name="sub_tab_details">Detalles</string>
+    <string name="sub_tab_map">Mapa</string>
+    <string name="sub_tab_gallery">Galería</string>
+    
+    
+    <string name="detail_food_rating">Puntaje en Ambiente</string>
+    <string name="detail_price_rating">Puntaje en Precio</string>
+    <string name="detail_working_hours">Horarios</string>
+    <string name="detail_amenitites">Amenidades</string>
+    <string name="hint_any_keywords">Palabras clave</string>
+    <string name="keywords">Palabras clave</string>
+    <string name="category">Categoría</string>
+    <string name="price_rating_range">Rango en Ambiente</string>
+    <string name="food_rating_range">Rango en Precio</string>
+    
+    
+    <string name="select_category">Seleccione la categoría</string>
+    
+    
+    <string name="search">Buscar</string>
+    <string name="clear">Borrar</string>
+    <string name="no_results_found">Sin Resultados</string>
+    <string name="no_name"></string>
+    <string name="menu">Menu</string>
+    <string name="tap_back_again_to_exit">Please tap back again to exit the app.</string>
+</resources>

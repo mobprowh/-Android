@@ -1,0 +1,17 @@
+Applications Graphics Acceleration Info:
+Uptime: 213115622 Realtime: 502947940
+
+** Graphics info for pid 18944 [com.projects.storefinder] **
+Profile data in ms:
+
+	com.projects.storefinder/com.projects.storefinder.MainActivity/android.view.ViewRootImpl@3d4a802d (visibility=0)
+View hierarchy:
+
+  com.projects.storefinder/com.projects.storefinder.MainActivity/android.view.ViewRootImpl@3d4a802d
+  156 views, 124.31 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        156
+Total DisplayList:  124.31 kB
+

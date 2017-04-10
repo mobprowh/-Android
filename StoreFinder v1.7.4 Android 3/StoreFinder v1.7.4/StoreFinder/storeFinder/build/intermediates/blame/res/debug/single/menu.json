@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/menu/menu_new_review.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/menu/menu_new_review.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/menu/menu_default.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/menu/menu_default.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/menu/menu_details.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/menu/menu_details.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/menu/menu_reviews.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/menu/menu_reviews.xml"
+    }
+]

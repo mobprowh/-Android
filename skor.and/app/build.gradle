@@ -1,0 +1,110 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/publiс' }
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.22.0'
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+
+android {
+
+    signingConfigs {
+        Bahisadam {
+            keyAlias 'Bahisadam'
+            storeFile file('../key/bahisadam-release.jks')
+            keyPassword 'bahisadam5151'
+            storePassword 'bahisadam5151'
+        }
+    }
+
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+
+    defaultConfig {
+        applicationId "bahisadam.com.bahisadam"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 10
+        versionName "1.0.10"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.Bahisadam
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            aaptOptions.setProperty("cruncherEnabled", false)
+            signingConfig signingConfigs.Bahisadam        
+        }
+    }
+
+    productFlavors {
+    }
+
+    aaptOptions {
+        cruncherEnabled = false
+        aaptOptions.useNewCruncher = false
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile('io.socket:socket.io-client:0.8.3') {
+        exclude group: 'org.json', module: 'json'
+    }
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.5@aar') {
+        transitive = true
+    }
+
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    compile 'com.android.support:recyclerview-v7:25.2.0'
+    compile 'com.android.support:cardview-v7:25.2.0'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.fasterxml.jackson.core:jackson-annotations:2.3.0'
+    compile 'org.glassfish:javax.annotation:10.0-b28'
+    compile 'com.facebook.fresco:fresco:0.6.1'
+    compile 'com.afollestad.material-dialogs:core:0.9.1.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.afollestad:sectioned-recyclerview:0.2.3'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha5'
+    compile 'com.android.support:support-v4:25.2.0'
+    compile 'com.makeramen:roundedimageview:2.2.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    compile 'com.txusballesteros:FitChart:1.0'
+    compile 'com.afollestad.material-dialogs:commons:0.9.1.0'
+    compile 'com.google.android.gms:play-services-gcm:10.0.1'
+    compile 'com.google.firebase:firebase-core:10.0.1'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+    compile 'ca.barrenechea.header-decor:header-decor:0.2.8'
+    compile 'com.google.android.gms:play-services-analytics:10.0.1'
+    compile 'com.google.firebase:firebase-config:10.0.1'
+    compile 'com.android.support:support-v13:25.2.0'
+    compile 'joda-time:joda-time:2.9.7'
+    compile 'de.hdodenhof:circleimageview:1.3.0'
+    compile 'ca.barrenechea.header-decor:header-decor:0.2.8'
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+}
+
+apply plugin: 'com.google.gms.google-services'

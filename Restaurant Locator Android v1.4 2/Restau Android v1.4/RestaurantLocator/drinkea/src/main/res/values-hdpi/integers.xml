@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="line_1">1</integer>
+    
+    <integer name="border_width">10</integer>
+    
+</resources>

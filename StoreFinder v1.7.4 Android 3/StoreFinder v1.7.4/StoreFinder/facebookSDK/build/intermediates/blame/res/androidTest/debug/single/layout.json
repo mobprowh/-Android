@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_tooltip_bubble.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_placepickerfragment.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_placepickerfragment.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_friendpickerfragment.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_friendpickerfragment.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_title_bar.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_title_bar.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_image.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_image.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_list_section_header.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_list_section_header.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_usersettingsfragment.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_usersettingsfragment.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_login_activity_layout.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_login_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_activity_circle_row.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_activity_circle_row.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_title_bar_stub.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_title_bar_stub.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_search_box.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_search_box.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_search_bar_layout.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_search_bar_layout.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_list_row.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_list_row.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_placepickerfragment_list_row.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_placepickerfragment_list_row.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/res/merged/androidTest/debug/layout/com_facebook_picker_checkbox.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/facebookSDK/build/intermediates/bundles/debug/res/layout/com_facebook_picker_checkbox.xml"
+    }
+]

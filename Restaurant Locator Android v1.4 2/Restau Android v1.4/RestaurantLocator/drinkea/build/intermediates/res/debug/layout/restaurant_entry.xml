@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/list_bg_restaurant_pattern"
+	        android:padding="@dimen/dimen_5dp" >
+
+			<com.libraries.imageview.MGImageView
+				android:id="@+id/imgViewThumb"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:adjustViewBounds="true"
+				android:cropToPadding="true"
+				android:scaleType="centerCrop"
+				android:src="@drawable/restaurant_placeholder" />
+
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_marginLeft="@dimen/dimen_10dp"
+	            android:layout_marginRight="@dimen/dimen_5dp"
+	            android:layout_weight="1"
+	            android:orientation="vertical" >
+	
+	            <TextView
+	                android:id="@+id/tvTitle"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:lines="1"
+	                android:text="Medium Text"
+	                android:textColor="@color/list_text_color"
+	                android:textSize="@dimen/text_size_restaurant_title"
+	                android:textStyle="bold" />
+	
+	            <TextView
+	                android:id="@+id/tvSubtitle"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:lines="2"
+	                android:text="Small Text"
+	                android:textColor="@color/list_text_color"
+	                android:textSize="@dimen/text_size_restaurant_subtitle" />
+	
+	        </LinearLayout>
+	
+	        <ImageView
+	            android:id="@+id/imgArrow"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:src="@drawable/list_arrow" />
+	
+	    </LinearLayout>
+    
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="@dimen/dimen_10dp" >
+
+            <ImageView
+                android:id="@+id/imgListFave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/dimen_5dp"
+                android:src="@drawable/ic_list_fave" />
+
+            <ImageView
+                android:id="@+id/imgListFeatured"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_list_featured" />
+
+        </LinearLayout>
+    
+    </FrameLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/jonnelryanbuisan/Documents/Android/AndroidStudio/Personal/RestaurantLocator/app/src/main/res/layout/restaurant_entry.xml -->

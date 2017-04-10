@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_picker_list_row.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_picker_list_row.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_news_detail.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_news_detail.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_picker_title_bar.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_picker_title_bar.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/twitter_dialog.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/twitter_dialog.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_profile.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/store_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/store_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_login.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_menu.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_menu.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/content_frame.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/content_frame.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/load_more_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/load_more_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_login_activity_layout.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_login_activity_layout.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_imageviewer.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_imageviewer.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_home.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/category_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/category_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_map2.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_map2.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/text_input.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/text_input.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/imageviewer_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/imageviewer_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/item_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/item_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_weather.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_weather.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_splash.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_picker_title_bar_stub.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_picker_title_bar_stub.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_news.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_news.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/news_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/news_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_friendpickerfragment.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_friendpickerfragment.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_animation.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_animation.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_picker_list_section_header.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_picker_list_section_header.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_placepickerfragment.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_placepickerfragment.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_store.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_store.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_picker_image.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_picker_image.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/menu_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/menu_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/slider_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/slider_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/empty_list.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/empty_list.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/menu_frame.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/menu_frame.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_tooltip_bubble.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/no_results.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/no_results.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_review_new.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_review_new.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/store_search_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/store_search_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_review.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_review.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/rating_dialog.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/rating_dialog.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_picker_checkbox.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_picker_checkbox.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_search_bar_layout.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_search_bar_layout.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_empty.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_empty.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_picker_activity_circle_row.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_picker_activity_circle_row.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_placepickerfragment_list_row.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_placepickerfragment_list_row.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_usersettingsfragment.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_usersettingsfragment.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/notifier_results.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/notifier_results.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/activity_swipe_refresh.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/activity_swipe_refresh.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/detail_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/detail_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_search.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_search.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_register.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_register.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_search_result.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_search_result.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/header.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/header.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/com_facebook_picker_search_box.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/exploded-aar/StoreFinder/facebookSDK/unspecified/res/layout/com_facebook_picker_search_box.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_category.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_category.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/review_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/review_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_terms_condition.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_terms_condition.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_about_us.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_about_us.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout/fragment_detail.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout/fragment_detail.xml"
+    }
+]

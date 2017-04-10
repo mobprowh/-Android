@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<restaurants>
+		<item>
+	        <restaurant_id>1</restaurant_id>
+	        <name>Swee Choon Tim Sum Restaurant Pte Ltd</name>
+	        <address>191 Jalan Besar, Singapore 208882</address>
+	        <lat>1.308290</lat>
+	        <lon>103.856954</lon>
+	        <desc>Restaurant for all ocassions.</desc>
+	        <email>support@sweechoon.com</email>
+	        <website>www.sweechoon.com</website>
+	        <amenities>Parking, Wifi, Credit Card, Lunch, Dinner, Breakfast, Take-out, Dine-in</amenities>
+	        <food_rating>3.5</food_rating>
+	        <price_rating>4.5</price_rating>
+	        <featured>1</featured>
+	        <phone>+65 6225 7788</phone>
+	        <hours>6:00 pm - 6:00 am</hours>
+	        <created_at>1397823412</created_at>
+	        <category_id>1</category_id>
+		</item>
+
+		<item>
+	        <restaurant_id>2</restaurant_id>
+	        <name>Jim Thompson</name>
+	        <address>45 Minden Road, Dempsey Hill, Singapore 248817</address>
+	        <lat>1.305573</lat>
+	        <lon>103.815691</lon>
+	        <desc>Good for children</desc>
+	        <email>support@jimthompson.com</email>
+	        <website>www.jimthompson.com</website>
+	        <amenities>Parking, Wifi, Credit Card, Lunch, Dinner, Breakfast, Take-out, Dine-in</amenities>
+	        <food_rating>4.1</food_rating>
+	        <price_rating>3.1</price_rating>
+	        <featured>0</featured>
+	        <phone>+65 6475 6088</phone>
+	        <hours>6:00 pm - 6:00 am</hours>
+	        <created_at>1397823412</created_at>
+	        <category_id>1</category_id>
+		</item>
+
+		<item>
+	        <restaurant_id>3</restaurant_id>
+	        <name>PuTien</name>
+	        <address>127 Kitchener Rd, Singapore 208514</address>
+	        <lat>1.309865</lat>
+	        <lon>103.857383</lon>
+	        <desc>For Childrens too.</desc>
+	        <email>support@putien.com</email>
+	        <website>www.putien.com</website>
+	        <amenities>Parking, Wifi, Credit Card, Lunch, Dinner, Breakfast</amenities>
+	        <food_rating>4.0</food_rating>
+	        <price_rating>3.8</price_rating>
+	        <featured>0</featured>
+	        <phone>+65 6295 6358</phone>
+	        <hours>11:30 am - 3:00 pm, 5:30 - 11:00 pm</hours>
+	        <created_at>1397823412</created_at>
+	        <category_id>2</category_id>
+		</item>
+
+		<item>
+	        <restaurant_id>4</restaurant_id>
+	        <name>Gayatri Restaurant</name>
+	        <address>122 Race Course Rd, Singapore 218583</address>
+	        <lat>1.309974</lat>
+	        <lon>103.851971</lon>
+	        <desc>We open 24 hrs to serve you.</desc>
+	        <email>support@gayatrirestaurant.com</email>
+	        <website>www.gayatrirestaurant.com</website>
+	        <amenities>Parking, Wifi, Credit Card, Lunch, Dinner, Breakfast</amenities>
+	        <food_rating>5.0</food_rating>
+	        <price_rating>4.4</price_rating>
+	        <featured>1</featured>
+	        <phone>+65 6292 4544</phone>
+	        <hours>Open 24 Hrs</hours>
+	        <created_at>1397823412</created_at>
+	        <category_id>2</category_id>
+		</item>
+
+		<item>
+	        <restaurant_id>5</restaurant_id>
+	        <name>Grand ShangHai Restaurant</name>
+	        <address>390 Havelock Rd Singapore 169662</address>
+	        <lat>1.299021</lat>
+	        <lon>103.834580</lon>
+	        <desc>You will be loving our place, so come and dine with us.</desc>
+	        <email>support@grandshanghai.com</email>
+	        <website>www.grandshanghai.com</website>
+	        <amenities>Parking, Wifi, Credit Card, Can Smoke</amenities>
+	        <food_rating>4.3</food_rating>
+	        <price_rating>4.4</price_rating>
+	        <featured>1</featured>
+	        <phone>+65 6836 6866</phone>
+	        <hours>11:30 am - 3:00 pm, 5:30 - 11:00 pm</hours>
+	        <created_at>1397823412</created_at>
+	        <category_id>3</category_id>
+		</item>
+
+	</restaurants>
+
+	<categories>
+		<item>
+	        <category_id>1</category_id>
+	        <category>Fast Food</category>
+	        <created_at>1397823412</created_at>
+		</item>
+
+		<item>
+	        <category_id>2</category_id>
+	        <category>Fast Casual</category>
+	        <created_at>1397823412</created_at>
+		</item>
+
+		<item>
+	        <category_id>3</category_id>
+	        <category>Casual Dining</category>
+	        <created_at>1397823412</created_at>
+		</item>
+
+		<item>
+	        <category_id>4</category_id>
+	        <category>Family Style</category>
+	        <created_at>1397823412</created_at>
+		</item>
+
+		<item>
+	        <category_id>5</category_id>
+	        <category>Fine Dining</category>
+	        <created_at>1397823412</created_at>
+		</item>
+	</categories>
+
+
+	<photos>
+		<item>
+	        <photo_id>1</photo_id>
+	        <photo_url>https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png</photo_url>
+	        <thumb_url>https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png</thumb_url>
+	        <restaurant_id>1</restaurant_id>
+	        <created_at>1397823412</created_at>
+		</item>
+
+		<item>
+	        <photo_id>2</photo_id>
+	        <photo_url>https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png</photo_url>
+	        <thumb_url>https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png</thumb_url>
+	        <restaurant_id>2</restaurant_id>
+	        <created_at>1397823412</created_at>
+		</item>
+
+		<item>
+	        <photo_id>3</photo_id>
+	        <photo_url>https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png</photo_url>
+	        <thumb_url>https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png</thumb_url>
+	        <restaurant_id>3</restaurant_id>
+	        <created_at>1397823412</created_at>
+		</item>
+
+		<item>
+	        <photo_id>4</photo_id>
+	        <photo_url>https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png</photo_url>
+	        <thumb_url>https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png</thumb_url>
+	        <restaurant_id>4</restaurant_id>
+	        <created_at>1397823412</created_at>
+		</item>
+
+		<item>
+	        <photo_id>5</photo_id>
+	        <photo_url>https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png</photo_url>
+	        <thumb_url>https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png</thumb_url>
+	        <restaurant_id>5</restaurant_id>
+	        <created_at>1397823412</created_at>
+		</item>
+
+		<item>
+	        <photo_id>6</photo_id>
+	        <photo_url>https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png</photo_url>
+	        <thumb_url>https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png</thumb_url>
+	        <restaurant_id>1</restaurant_id>
+	        <created_at>1397823412</created_at>
+		</item>
+
+		<item>
+	        <photo_id>7</photo_id>
+	        <photo_url>https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png</photo_url>
+	        <thumb_url>https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png</thumb_url>
+	        <restaurant_id>1</restaurant_id>
+	        <created_at>1397823412</created_at>
+		</item>
+
+		<item>
+	        <photo_id>8</photo_id>
+	        <photo_url>https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png</photo_url>
+	        <thumb_url>https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png</thumb_url>
+	        <restaurant_id>1</restaurant_id>
+	        <created_at>1397823412</created_at>
+		</item>
+
+		<item>
+	        <photo_id>9</photo_id>
+	        <photo_url>https://dl.dropboxusercontent.com/s/ug5seoyy1iovf0o/viewer.png</photo_url>
+	        <thumb_url>https://dl.dropboxusercontent.com/s/izaqf6nfk7eb1gr/thumb_viewer.png</thumb_url>
+	        <restaurant_id>1</restaurant_id>
+	        <created_at>1397823412</created_at>
+		</item>
+	</photos>
+
+</data>
+

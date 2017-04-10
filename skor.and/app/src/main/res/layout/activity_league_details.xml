@@ -1,0 +1,92 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android.support.design="http://schemas.android.com/tools"
+    android:id="@+id/tabanim_maincontent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+
+
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/leagueLogo"
+                    android:paddingRight="@dimen/padding_item"
+                    />
+                <TextView
+                    android:paddingLeft="@dimen/padding_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="#fff"
+                    android:id="@+id/leagueName"/>
+            </LinearLayout>
+            </android.support.v7.widget.Toolbar>
+
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/NavigationTab"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e0e7e8"
+        android:paddingBottom="50dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+<!--
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="8dp"
+        app:layout_anchor="@id/tabs"
+        app:layout_anchorGravity="center|left|start"
+        app:fabSize="mini"
+        app:layout_behavior="com.bahisadam.utility.ThumbBehavior"
+        app:borderWidth="0dp" />
+
+-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center">
+        <include
+            android:id="@+id/toolbar_bottom"
+            layout="@layout/toolbar_bottom"
+            />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

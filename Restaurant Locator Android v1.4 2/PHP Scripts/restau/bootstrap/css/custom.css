@@ -1,0 +1,107 @@
+body {
+  min-height: 500px;
+  padding-top: 70px;
+  background-color: #fee7e6;
+}
+
+.navbar-default {
+  background-color: #fa504a;
+  border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #fb8a86;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.panel-default > .panel-heading {
+    color: #ffffff;
+    background-color: #fa504a;
+    border-color: #DDD;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #fa504a;
+    border-color: #fc342d;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #ffffff;
+    background-color: #fc342d;
+    border-color: #fc342d;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
+    color: #ffffff;
+    background-color: #fc342d;
+    border-color: #fc342d;
+}
+
+.btn-info {
+    color: #ffffff;
+    background-color: #fa504a;
+    border-color: #fc342d;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #fc342d;
+    border-color: #fc342d;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fc342d;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+
+.btn-default {
+    color: #fa504a;
+    background-color: #FFF;
+    border-color: #CCC;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    color: #fa504a;
+    background-color: #EBEBEB;
+    border-color: #ADADAD;
+}
+
+/*.btn-default {
+    color: #ffffff;
+    background-color: #fb8a86;
+    border-color: #fc342d;
+}*/

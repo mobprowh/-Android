@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4" >
+
+        <ImageView
+            android:id="@+id/imgViewPic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder" />
+
+    </FrameLayout>
+
+    <com.libraries.segment.control.MGSegmentControl
+        android:id="@+id/segmentControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+    
+    <FrameLayout
+        android:id="@+id/containerDetails"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:padding="@dimen/dimen_5dp" />
+    
+</LinearLayout>
+<!-- From: file:/Users/jonnelryanbuisan/Documents/Android/AndroidStudio/Personal/RestaurantLocator/app/src/main/res/layout/fragment_details.xml -->

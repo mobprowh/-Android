@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/root"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@color/theme_orange_color_alpha_66"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvNotifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/no_results_found"
+        android:textColor="@color/text_white_cloor"
+        android:textSize="@dimen/text_size_20sp" />
+
+</FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingRight="@dimen/padding_item"
+    android:paddingLeft="@dimen/padding_item"
+    android:layout_height="wrap_content">
+    <TextView
+        android:paddingTop="@dimen/padding_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:minEms="3"
+        android:layout_gravity="left|top"
+        android:id="@+id/matchDate"/>
+    <LinearLayout
+        android:paddingTop="@dimen/padding_item"
+        android:paddingBottom="@dimen/padding_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:id="@+id/ll_team1"
+    android:layout_gravity="end|top"
+    android:gravity="end|top"
+    android:orientation="horizontal">
+    <TextView
+        android:paddingLeft="@dimen/padding_item"
+        android:paddingRight="@dimen/padding_item"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/team1" />
+    <ImageView
+
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginRight="@dimen/padding_item"
+        android:paddingLeft="@dimen/padding_item"
+        android:paddingRight="@dimen/padding_item"
+        android:id="@+id/team1logo"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="start|center_vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:id="@+id/matchLayout"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/rounded_grey"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#131212"
+            android:id="@+id/score"/>
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#131212"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:id="@+id/halfTimeScore"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingLeft="@dimen/padding_item"
+        android:paddingRight="@dimen/padding_item"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:id="@+id/ll_team2"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="left|top"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginRight="@dimen/padding_item"
+            android:paddingLeft="@dimen/padding_item"
+            android:paddingRight="@dimen/padding_item"
+        android:id="@+id/team2logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/team2" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:layout_weight="0.7"
+        android:paddingLeft="@dimen/padding_item"
+        android:paddingRight="@dimen/padding_item"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:textColor="#000"
+        android:id="@+id/matchStatus"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dfdfdf"
+        />
+</LinearLayout>

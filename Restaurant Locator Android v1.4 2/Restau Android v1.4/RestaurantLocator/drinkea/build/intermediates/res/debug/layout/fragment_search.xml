@@ -1,0 +1,202 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/dimen_5dp"
+                android:background="@color/bg_white_color"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_5dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/keywords"
+                        android:textColor="@color/list_text_color"
+                        android:textSize="@dimen/text_size_search"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/txtKeywords"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_5dp"
+                        android:background="@drawable/textbox"
+                        android:ems="10"
+                        android:hint="@string/hint_any_keywords"
+                        android:lines="@integer/line_1"
+                        android:paddingLeft="@dimen/dimen_10dp"
+                        android:paddingRight="@dimen/dimen_10dp" >
+                    </EditText>
+                </LinearLayout>
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tvAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/category"
+                        android:textColor="@color/list_text_color"
+                        android:textSize="@dimen/text_size_search"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/txtCategory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_5dp"
+                        android:background="@drawable/textbox"
+                        android:ems="10"
+                        android:focusable="false"
+                        android:hint="@string/hint_any_keywords"
+                        android:lines="@integer/line_1"
+                        android:paddingLeft="@dimen/dimen_10dp"
+                        android:paddingRight="@dimen/dimen_10dp" >
+						
+                    </EditText>
+
+                </LinearLayout>
+                
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tvRating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/price_rating_range"
+                        android:textColor="@color/list_text_color"
+                        android:textSize="@dimen/text_size_search"
+                        android:textStyle="bold" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBarPriceFrom"
+                        style="@style/foodRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:rating="1"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/dimen_10dp"
+                        android:numStars="5" />
+                    
+                    
+                    <RatingBar
+                        android:id="@+id/ratingBarPriceTo"
+                        style="@style/foodRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:rating="5"
+                        android:layout_marginTop="@dimen/dimen_10dp"
+                        android:numStars="5" />
+
+                </LinearLayout>
+                
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_20dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tvRating2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/food_rating_range"
+                        android:textColor="@color/list_text_color"
+                        android:textSize="@dimen/text_size_search"
+                        android:textStyle="bold" />
+
+                    <RatingBar
+                        android:id="@+id/ratingBarFoodFrom"
+                        style="@style/foodRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:rating="3"
+                        android:layout_marginTop="@dimen/dimen_10dp"
+                        android:numStars="5" />
+                    
+                    <RatingBar
+                        android:id="@+id/ratingBarFoodTo"
+                        style="@style/foodRatingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:rating="5"
+                        android:layout_marginTop="@dimen/dimen_10dp"
+                        android:numStars="5" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen_50dp" >
+
+                    <Button
+                        android:id="@+id/btnSearch"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_search_selector"
+                        android:text="@string/search"
+                        android:textColor="@color/text_white_cloor"
+                        android:textSize="@dimen/text_size_button_search"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/btnClear"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_search_selector"
+                        android:text="@string/clear"
+                        android:textColor="@color/text_white_cloor"
+                        android:textSize="@dimen/text_size_button_search"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+<!-- From: file:/Users/jonnelryanbuisan/Documents/Android/AndroidStudio/Personal/RestaurantLocator/app/src/main/res/layout/fragment_search.xml -->

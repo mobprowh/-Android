@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Store Finder Android Full Application PHP Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Store Finder Android Full Application PHP &rdquo; Documentation by &ldquo;MGAppcelerator&rdquo; v1.7</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Store Finder Android Full Application&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 06/09/2014<br>
+					By: MGAppcelerator<br>
+					Email: <a href="mailto:mangasaurgames@gmail.com">mangasaurgames@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my application. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/MGAppcelerator">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		<hr>
+		
+
+
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#install">Installing MAMP/WAMP</a></li>
+			<li><a href="#create">Creating a Database</a></li>
+			<li><a href="#import">Importing the SQL File</a></li>
+			<li><a href="#change">Changing the Config File</a></li>
+			<li><a href="#global">Changing the Global File</a></li>
+		</ol>
+		<hr>
+		<hr class="space">
+		
+
+
+
+		<h3 id="install"><strong>A) Installing MAMP/WAMP</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<h4>There are alot of available installation online and it is a easy as downloading the installer and installing it</h4>
+
+		<h3>After the installation like in MACOSX, the MAMP appears like this.</strong></h3>
+		<img src="assets/images/mamp-installation.png" alt="" />
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+
+		<h3 id="create"><strong>B) Creating a Database</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<h4>Create a database and named as <strong>"db_storefinder"</strong> and select collation as <strong>"utf8_general_ci"</strong></h4>
+		<img src="assets/images/create-database.png" alt="" />
+
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+
+
+		<h3 id="import"><strong>C) Importing the SQL File</strong> - <a href="#toc">top</a></h3>
+		
+		<br />
+		<br />
+		<h4>The file <strong>SQL File</strong> found at the <strong>Store Finder Android v1.7/MySQL SQL File/</strong></h4>
+		<img src="assets/images/sql-file-directory.png" alt="" />
+
+		<br />
+		<br />
+		<br />
+		<h4>Click the <strong>db_storefinder</strong> then select <strong>Import</strong></h4>
+		<img src="assets/images/import-1.png" alt="" />
+
+
+		<br />
+		<br />
+		<br />
+		<h4>Select the <strong>db_storefinder.sql</strong> then click <strong>Open</strong></h4>
+		<img src="assets/images/import-sql.png" alt="" />
+
+
+		<br />
+		<br />
+		<br />
+		<h4>Press the <strong> Go Button</strong> then wait for confirmation</h4>
+		<img src="assets/images/import-sql-go.png" alt="" />
+
+
+		<br />
+		<br />
+		<br />
+		<h4>IF all is working good then you will see all the tables in the <stromg>Structure Tab</strong></h4>
+		<img src="assets/images/all-tables.png" alt="" />
+
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+		<h3 id="change"><strong>D) Changing the Config File</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<h4>You can locate the config file at this folder <strong>Store Finder Android v1.7/PHP Scripts/storefinder/application/config.php</strong></h4>
+		<img src="assets/images/php-config-file.png" alt="" />
+
+		<br />
+		<br />
+		<h4>Open the file in your favorite editor then change the content of it</h4>
+		<img src="assets/images/config-file-open.png" alt="" />
+
+		<br />
+		<br />
+		<h4>Modify the content inside the red boxes depending on your settings of your server or your localhost</h4>
+		<h4>The <strong>ROOT_URL</strong> below should be change depending on how the server access your root directory.</h4>
+
+		<img src="assets/images/config-file-open-modify.png" alt="" />
+		
+
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+		<h3 id="global"><strong>E) Changing the Global File</strong> - <a href="#toc">top</a></h3>
+		<br />
+		<br />
+		<h4>You can locate the global file at this folder <strong>Store Finder Android v1.7/PHP Scripts/storefinder/application/Global.php</strong></h4>
+		<img src="assets/images/global-dir.png" alt="" />
+
+		<br />
+		<br />
+		<h4>Open the file in your favorite editor then change the content of it</h4>
+		<img src="assets/images/globals.png" alt="" />
+
+		<br />
+		<br />
+		<h4>Modify the content inside the red boxes depending on your needs</h4>
+		<h4>The <strong>DEBUG</strong> can be set to <strong>true</strong> if you wish to display any errors or warnings</h4>
+		<h4>The <strong>KEY_SALT</strong> can be set to <strong>any alphanumeric values</strong> to make your server more secure. </h4>
+
+		<img src="assets/images/globals-modify.png" alt="" />
+		
+
+		<br />
+		<br />
+		<hr>
+		<hr class="space">
+
+
+
+		<hr>
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the application on CodeCanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		<p class="append-bottom alt large"><strong>MGAppcelerator</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		<hr class="space">
+
+
+
+
+	</div><!-- end div .container -->
+</body>
+</html>

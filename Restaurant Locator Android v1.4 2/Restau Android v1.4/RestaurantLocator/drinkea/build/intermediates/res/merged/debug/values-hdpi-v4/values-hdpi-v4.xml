@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dimen_100dp">100dp</dimen>
+    <dimen name="dimen_10dp">10dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+    <dimen name="dimen_50dp">50dp</dimen>
+    <dimen name="dimen_5dp">5dp</dimen>
+    <dimen name="list_item_height">30dp</dimen>
+    <dimen name="tab_height">40dp</dimen>
+    <dimen name="tab_padding">10dp</dimen>
+    <dimen name="text_default">17sp</dimen>
+    <dimen name="text_size_14sp">18sp</dimen>
+    <dimen name="text_size_16sp">22sp</dimen>
+    <dimen name="text_size_18sp">24sp</dimen>
+    <dimen name="text_size_22sp">22sp</dimen>
+    <dimen name="text_size__no_result">24sp</dimen>
+    <dimen name="text_size_about_details">18sp</dimen>
+    <dimen name="text_size_about_title">20sp</dimen>
+    <dimen name="text_size_button_search">22sp</dimen>
+    <dimen name="text_size_category">22sp</dimen>
+    <dimen name="text_size_restaurant_subtitle">18sp</dimen>
+    <dimen name="text_size_restaurant_title">22sp</dimen>
+    <dimen name="text_size_search">18sp</dimen>
+    <dimen name="text_size_slider_subtitle">16sp</dimen>
+    <dimen name="text_size_slider_title">18sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <integer name="border_width">10</integer>
+    <integer name="line_1">1</integer>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@color/bg_color</item>
+        <item name="android:colorBackground">@color/bg_color</item>
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+    </style>
+    <style name="CustomActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/nav_bar_pattern</item>
+    </style>
+    <style name="foodRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/star_rating_bar_full</item>
+        <item name="android:minHeight">32dip</item>
+        <item name="android:maxHeight">40dip</item>
+    </style>
+</resources>

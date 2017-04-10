@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/no_results.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/no_results.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/slider_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/slider_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/fragment_map2.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/fragment_map2.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/news_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/news_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/store_search_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/store_search_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/fragment_search.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/fragment_search.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/fragment_weather.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/fragment_weather.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/fragment_register.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/fragment_register.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/category_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/category_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/menu_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/menu_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/notifier_results.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/notifier_results.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/item_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/item_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/fragment_about_us.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/fragment_about_us.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/fragment_login.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/review_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/review_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/fragment_splash.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/fragment_splash.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/fragment_review_new.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/fragment_review_new.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/fragment_detail.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/fragment_detail.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/fragment_profile.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/detail_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/detail_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/store_entry.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/store_entry.xml"
+    },
+    {
+        "merged": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/build/intermediates/res/merged/debug/layout-large-v4/fragment_terms_condition.xml",
+        "source": "/Users/mg/Documents/Projects/MG/Android/StoreFinder/storeFinder/src/main/res/layout-large/fragment_terms_condition.xml"
+    }
+]

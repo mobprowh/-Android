@@ -1,0 +1,99 @@
+————————————————————————————————————————————
+V1.7.4 Update
+————————————————————————————————————————————StoreActivity.java
+FavoriteFragment.java
+SearchResultActivity.java
+FeaturedFragment.java
+HomeFragment.java
+strings.xml
+MapFragment.java
+
+————————————————————————————————————————————
+V1.7.3 Update
+————————————————————————————————————————————
+Data.javaFeaturedFragment.javaHomeFragment.javaMapFragment.javaSettingsFragment.javaStoreActivity.javatext_input.xml
+get_stores.php
+
+————————————————————————————————————————————
+V1.7.2 Update
+————————————————————————————————————————————
+LoginActivity.java
+RegisterActivity.java
+ProfileActivity.java
+ControllerRest.php
+Config.java
+
+————————————————————————————————————————————
+V1.7.1 Update
+————————————————————————————————————————————
+Config.java
+Queries.java
+Data.java
+StoreActivity.java
+DetailActivity.java
+LoginActivity.java
+Register.java
+FeaturedFragment.java
+MapFragment.java
+CategoryFragment.java
+HomeFragment.java
+SettingsFragment.java
+SplashFragment.java
+MainActivity.java
+UserAccessSession.java
+EmptyFragment.java
+fragment_empty.xml
+
+store_insert.php
+ControllerRest.php
+ControllerUser.php
+get_home_stores_news.php
+get_stores_news.php
+get_stores.php
+stores.php
+————————————————————————————————————————————
+V1.7 Update
+————————————————————————————————————————————
+Migration on the latest build
+
+————————————————————————————————————————————
+V1.1.5 Update
+————————————————————————————————————————————
+WeatherFragment.java
+Config.java
+
+————————————————————————————————————————————
+V1.1.4 Update
+————————————————————————————————————————————
+Documentation update only
+
+————————————————————————————————————————————
+V1.1.3 Update
+————————————————————————————————————————————
+layout/review_entry.xml
+layout-large/review_entry.xml
+HomeFragment.java
+DetailActivity.java
+FeaturedFragment.java
+FavoritesFragment.java
+StoreActivity.java
+MapFragment.java
+SearchFragment.java
+SearchResultActivity.java
+LoginActivity.java
+RegisterAtivity.java
+CategoryFragment.java
+
+————————————————————————————————————————————
+V1.1.2 Update
+————————————————————————————————————————————
+Detail Activity.java
+RegisterActivity.java
+layout/fragment_register.xml
+layout-large/fragment_register.xml
+MapFragment.java
+
+PHP Backend
+rest/register.php
+rest/login.php
+rest/update_profile.php

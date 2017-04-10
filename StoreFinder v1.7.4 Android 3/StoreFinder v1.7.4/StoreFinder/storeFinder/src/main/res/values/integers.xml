@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="num_news_line_3">3</integer>
+    <integer name="num_new_lines_2">2</integer>
+    <integer name="num_new_lines_5">5</integer>
+    <integer name="num_new_lines_1">1</integer>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp">
+
+<android.support.v7.widget.CardView 
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    card_view:cardBackgroundColor="@color/header_color"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation="1dp"
+    card_view:cardUseCompatPadding="false"
+    card_view:contentPadding="2dp"
+    android:layout_marginBottom="-1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground">
+
+
+        <ImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/img_title_logo_img"
+            android:layout_marginLeft="@dimen/grid_span_margen"
+            android:layout_marginRight="@dimen/grid_span_margen"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            />
+        <TextView
+            android:id="@+id/sectionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/grid_span_margen"
+            android:layout_marginRight="@dimen/grid_span_margen"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/img_title_logo_img"
+            android:singleLine="true"
+            android:text="Section Title"
+            android:textColor="@color/headerTextColor"
+            tools:ignore="UnusedAttribute" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/grid_span_margen"
+                android:layout_marginRight="@dimen/grid_span_margen"
+                android:layout_centerInParent="true"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:text="@string/fa_play"
+                android:textAlignment="textEnd"
+                android:id="@+id/right_arrow"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dfdfdf"/>
+    </LinearLayout>

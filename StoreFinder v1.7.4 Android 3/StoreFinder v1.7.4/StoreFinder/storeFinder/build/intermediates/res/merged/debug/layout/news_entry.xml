@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_5dp" >
+
+    <com.libraries.imageview.MGImageView
+        android:id="@+id/imgViewPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:scaleType="center"
+        android:src="@drawable/slider_placeholder" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:background="@color/slider_bg_label"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_5dp" >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_5dp"
+            android:text="Medium Text"
+            android:textColor="@color/theme_orange_color"
+            android:textSize="@dimen/text_size_16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_5dp"
+            android:lines="@integer/num_new_lines_2"
+            android:text="Small Text"
+            android:textColor="@color/text_white_cloor"
+            android:textSize="@dimen/text_size_14sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:background="@color/slider_bg_label"
+        android:padding="@dimen/dimen_10dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/theme_orange_color"
+        android:textSize="@dimen/text_size_16sp" />
+
+</FrameLayout>

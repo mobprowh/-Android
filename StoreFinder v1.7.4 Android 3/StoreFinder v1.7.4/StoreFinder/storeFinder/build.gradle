@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.projects.storefinder"
+        minSdkVersion 15
+        targetSdkVersion 18
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+dependencies {
+    compile project(':facebookSDK')
+    compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.google.android.gms:play-services:5.0.89'
+    compile files('libs/apache-mime4j-0.6.jar')
+    compile files('libs/httpclient-4.3.4.jar')
+    compile files('libs/httpcore-4.3.2.jar')
+    compile files('libs/httpmime-4.3.4.jar')
+    compile files('libs/jackson-annotations-2.2.2.jar')
+    compile files('libs/jackson-core-2.2.2.jar')
+    compile files('libs/jackson-databind-2.2.2.jar')
+    compile files('libs/twitter4j-async-4.0.2.jar')
+    compile files('libs/twitter4j-core-4.0.2.jar')
+    compile files('libs/twitter4j-media-support-4.0.2.jar')
+    compile files('libs/twitter4j-stream-4.0.2.jar')
+    compile files('libs/universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar')
+}

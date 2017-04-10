@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="#EFEFEF"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/frameMainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+    </FrameLayout>
+
+    <com.libraries.segment.control.MGTabControl
+        android:id="@+id/tabControl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tab_bar_pattern" />
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingRight="@dimen/padding_item"
+    android:paddingLeft="@dimen/padding_item"
+    android:paddingTop="@dimen/padding_item"
+    android:paddingBottom="@dimen/padding_item"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:id="@+id/ll_team1"
+        android:gravity="right|center_vertical"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingLeft="@dimen/padding_item"
+            android:paddingRight="@dimen/padding_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:id="@+id/team1" />
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginRight="@dimen/padding_item"
+            android:paddingLeft="@dimen/padding_item"
+            android:paddingRight="@dimen/padding_item"
+            android:id="@+id/team1logo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_gravity="center"
+        android:id="@+id/matchLayout"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#131212"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/score" android:visibility="gone"/>
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#131212"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:id="@+id/halfTimeScore" android:visibility="gone"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/headerTextColor"
+            android:textSize="12sp"
+            android:id="@+id/matchTime"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:id="@+id/matchDate"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingLeft="@dimen/padding_item"
+        android:paddingRight="@dimen/padding_item"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/ll_team2"
+        android:gravity="left|center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginRight="@dimen/padding_item"
+            android:paddingLeft="@dimen/padding_item"
+            android:paddingRight="@dimen/padding_item"
+            android:id="@+id/team2logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:id="@+id/team2" />
+    </LinearLayout>
+</LinearLayout>

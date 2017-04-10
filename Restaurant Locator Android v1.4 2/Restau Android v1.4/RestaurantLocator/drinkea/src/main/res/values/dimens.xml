@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    
+    <dimen name="tab_height">40dp</dimen>
+    <dimen name="tab_padding">10dp</dimen>
+    <dimen name="text_small">7sp</dimen>
+    <dimen name="text_default">17sp</dimen> 
+    <dimen name="list_item_height">30dp</dimen>
+    <dimen name="dimen_5dp">5dp</dimen>
+    <dimen name="dimen_10dp">10dp</dimen>
+    <dimen name="dimen_100dp">100dp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+    <dimen name="dimen_50dp">50dp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>  
+    <dimen name="text_size_18sp">18sp</dimen>
+    
+    
+    <!-- SMALL SCREEN -->
+    <dimen name="text_size_category">16sp</dimen>
+    <dimen name="text_size_restaurant_title">16sp</dimen>
+    <dimen name="text_size_restaurant_subtitle">14sp</dimen>
+
+    <dimen name="text_size_about_title">18sp</dimen>
+    <dimen name="text_size_about_details">16sp</dimen>
+    
+    <dimen name="text_size_slider_title">14sp</dimen>
+    <dimen name="text_size_slider_subtitle">12sp</dimen>
+    
+    <dimen name="text_size_search">16sp</dimen>
+    
+    <dimen name="text_size__no_result">16sp</dimen>
+    
+    <dimen name="text_size_button_search">16sp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_22sp">22sp</dimen>
+    <dimen name="dimen_1dp">1dp</dimen>
+
+
+</resources>

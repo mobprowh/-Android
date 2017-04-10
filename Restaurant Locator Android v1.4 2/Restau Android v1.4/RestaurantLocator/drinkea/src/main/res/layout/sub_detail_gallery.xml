@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white_color"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/gridViewDetail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp" />
+    
+</LinearLayout>

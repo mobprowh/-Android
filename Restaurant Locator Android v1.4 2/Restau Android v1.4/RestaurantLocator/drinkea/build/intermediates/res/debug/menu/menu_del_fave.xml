@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/addFave"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_fave_remove"
+        android:title=""/>
+</menu>
+<!-- From: file:/Users/jonnelryanbuisan/Documents/Android/AndroidStudio/Personal/RestaurantLocator/app/src/main/res/menu/menu_del_fave.xml -->

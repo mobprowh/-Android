@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="35dp">
+<LinearLayout
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/text_view_squad_number"/>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:id="@+id/image_view_squad_image"/>
+    </RelativeLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/text_view_squad_name"/>
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:id="@+id/text_view_squad_position"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:id="@+id/text_view_squad_goals"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:id="@+id/text_view_squad_assists"/>
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="15">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/image_view_squad_country"/>
+</RelativeLayout>
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d2d6db"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="70dp"
+
+    tools:context="com.bahisadam.fragment.StatisticsFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff"
+
+        >
+        <TabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TabWidget>
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <LinearLayout
+                        android:id="@+id/tab1"
+                        android:orientation="vertical"
+                        android:background="#e0e7e8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <include
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            layout="@layout/match_stats_layout" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/tab2"
+                        android:orientation="vertical"
+                        android:background="#e0e7e8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <include
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            layout="@layout/game_stats_layout" />
+                    </LinearLayout>
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </FrameLayout>
+
+</LinearLayout>

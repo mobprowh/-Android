@@ -1,0 +1,207 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bahisadam.fragment.StandingsFragment">
+    <android.support.v7.widget.CardView
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="#fff"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        card_view:contentPaddingBottom="5dp"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="1dp"
+        card_view:cardUseCompatPadding="true"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff"
+
+        >
+        <TabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </TabWidget>
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    >
+                    <LinearLayout
+                        android:id="@+id/tab1"
+                        android:orientation="vertical"
+                        android:background="#e0e7e8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </LinearLayout>
+
+
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:visibility="gone"
+        android:background="#fff">
+        <LinearLayout
+            android:layout_weight="@integer/grid_span_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/generalStandingsLeagues"
+            android:gravity="center">
+            <TextView
+                android:layout_marginTop="@dimen/header_padding_top_bottom"
+                android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/headerTextColor"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:text="@string/main"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="@integer/grid_span_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:id="@+id/homeStandingsLeagues"
+            android:gravity="center">
+            <TextView
+                android:layout_marginTop="@dimen/header_padding_top_bottom"
+                android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/headerTextColor"
+
+                android:text="@string/homeTeam"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="@integer/grid_span_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/awayStandingsLeagues"
+            android:gravity="center">
+            <TextView
+                android:layout_marginTop="@dimen/header_padding_top_bottom"
+                android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/headerTextColor"
+                android:text="@string/awayTeam"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:id="@+id/underlinesLayout"
+        android:background="#fff"
+        android:weightSum="3">
+        <LinearLayout
+            android:layout_weight="@integer/grid_span_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="top"
+            android:gravity="top">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingLeft="@dimen/padding_item"
+                android:visibility="invisible"
+                android:paddingRight="@dimen/padding_item"
+                android:layout_marginLeft="@dimen/padding_item"
+                android:layout_marginRight="@dimen/padding_item"
+                android:background="@color/colorAccent"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="@integer/grid_span_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="top"
+            android:gravity="top">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingLeft="@dimen/padding_item"
+                android:paddingRight="@dimen/padding_item"
+                android:visibility="invisible"
+                android:layout_marginLeft="@dimen/padding_item"
+                android:layout_marginRight="@dimen/padding_item"
+                android:background="@color/colorAccent"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="@integer/grid_span_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="top"
+            android:gravity="top">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingLeft="@dimen/padding_item"
+                android:paddingRight="@dimen/padding_item"
+                android:visibility="invisible"
+                android:layout_marginLeft="@dimen/padding_item"
+                android:layout_marginRight="@dimen/padding_item"
+                android:background="@color/colorAccent"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/leagueStandings"
+        android:nestedScrollingEnabled="true"/>
+</LinearLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>

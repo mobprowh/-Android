@@ -1,0 +1,26 @@
+Restaurant Locator v1.1 update:
+
+
+Fix Map crash when switching views.
+Added PHP Server for data management.
+Optional selection in XML/JSON or PHP for Data Management.
+Fixed some bugs.
+Enhance image quality.
+Fixed sliders to switch fast when preloaded with views.
+
+
+
+Restaurant Locator v1.2 update:
+
+Bugs Fixes
+Encoding Fixes
+
+Restaurant Locator v1.3 update:
+
+Android Studio Migration
+
+Restaurant Location v1.4 update
+
+enhance overall app performance.
+Bug and stability adjustments.
+Used Sliding Menu instead of Tab bar.

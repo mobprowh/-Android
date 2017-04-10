@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="word_bar">#FF0000</color>
+    <color name="number_bar">#00FF00</color>
+    
+    <color name="unselected_text_color">#929292</color>
+    
+    <color name="slider_bg_label">#A7000000</color>
+    
+    <color name="text_white_cloor">#ffffff</color>
+    
+    <color name="list_text_color">#7c7c7c</color>
+    
+    <color name="bg_color">#fff3f3</color>
+    
+    <color name="bg_white_color">#ffffff</color>
+    
+    <color name="no_result_text_color">#929292</color>
+    
+    <color name="theme_black_color_opacity">#66303030</color>
+    
+    <color name="theme_black_color">#303030</color>
+    
+    <color name="overlay_color">#A7FFFFFF</color>
+    
+    <color name="view_bg_color">#fff7f7f7</color>
+    
+    <color name="theme_orange_color">#ff662e</color>
+    
+    <color name="theme_orange_color_alpha_66">#D6ff662e</color>
+    <color name="bg_gray_color">#f0f0f0</color>
+    
+</resources>

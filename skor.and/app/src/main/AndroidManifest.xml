@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.bahisadam"
+          android:installLocation="auto">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo"/>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent"/>
+
+        <activity
+            android:name=".view.HomeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.DetailPageActivity"
+            android:label="@string/title_activity_detail_page"
+            android:parentActivityName=".view.HomeActivity"
+            android:theme="@style/MyMaterialTheme"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bahisadam.view.HomeActivity"/>
+        </activity>
+        <activity
+            android:name=".view.LeagueDetailsActivity"
+            android:label="@string/title_activity_league_details"
+            android:theme="@style/MyMaterialTheme"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="9fa022b8c53aaead576050174ca63a05a6c9958c"/>
+
+        <activity
+            android:name=".view.RegistrationActivity"
+            android:label="@string/title_activity_registration"/>
+
+        <service android:name=".SkorAdamFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:name=".view.TeamDetailsActivity">
+        </activity>
+    </application>
+
+</manifest>

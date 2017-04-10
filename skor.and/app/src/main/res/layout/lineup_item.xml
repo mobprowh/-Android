@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/padding_item"
+    android:paddingLeft="@dimen/padding_item"
+    android:paddingTop="@dimen/padding_item"
+    android:paddingBottom="@dimen/padding_item">
+    <LinearLayout
+        android:paddingRight="@dimen/padding_item"
+        android:paddingLeft="@dimen/padding_item"
+        android:paddingTop="@dimen/padding_item"
+        android:paddingBottom="@dimen/padding_item"
+        android:layout_marginRight="@dimen/padding_item"
+        android:layout_marginLeft="@dimen/padding_item"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:gravity="center|center_vertical"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#9e9e9e"
+            android:id="@+id/homePlayerNumber"
+            android:layout_weight="0.5"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:id="@+id/homePlayer"
+            android:layout_weight="@integer/grid_span_2"/>
+
+    </LinearLayout>
+    <View android:layout_width="1dp" android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:paddingRight="@dimen/padding_item"
+        android:paddingLeft="@dimen/padding_item"
+        android:paddingTop="@dimen/padding_item"
+        android:paddingBottom="@dimen/padding_item"
+        android:layout_marginRight="@dimen/padding_item"
+        android:layout_marginLeft="@dimen/padding_item"
+        android:layout_width="0dp"
+        android:layout_gravity="center|center_vertical"
+        android:gravity="center|center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/awayPlayerNumber"
+            android:textColor="#9e9e9e"
+            android:layout_weight="0.5"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:id="@+id/awayPlayer"
+            android:layout_weight="@integer/grid_span_2"/>
+
+    </LinearLayout>
+</LinearLayout>

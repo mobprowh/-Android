@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/padding_item"
+    android:layout_marginTop="@dimen/padding_item"
+    >
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:paddingLeft="@dimen/padding_item"
+        android:paddingRight="@dimen/padding_item">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/commentsAvatar"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/commentsUserScore"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_item">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="70sp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dark_grey"
+                    android:textStyle="bold"
+                    android:id="@+id/commentsNickname"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding_item">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="#a32a32"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/commentsForecast"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/commentsText"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/grid_span_margen"
+                android:layout_marginRight="@dimen/grid_span_margen"
+                android:layout_centerInParent="true"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:text="@string/fa_thumbs_o_up"
+                android:textAlignment="textEnd"
+                android:id="@+id/like_icon"/>
+        <TextView
+                android:paddingLeft="@dimen/padding_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/likesCount"/>
+    </LinearLayout>
+</LinearLayout>

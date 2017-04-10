@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.bahisadam.fragment.FixtureFragment">
+
+    <android.support.v7.widget.CardView
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="#fff"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        card_view:contentPaddingBottom="5dp"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="1dp"
+        card_view:cardUseCompatPadding="true"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:background="#f1f3f4"
+                android:layout_marginBottom="2dp"
+                android:id="@+id/text_view_squad_header"/>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:orientation="horizontal"
+                          android:layout_width="match_parent"
+                          android:layout_height="35dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="10"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/number"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="20"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/player_name"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="10"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="@string/position"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="@string/goal"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="@string/asist"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15"
+                    android:gravity="center"
+                    android:text="@string/country"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d2d6db"/>
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="80"
+                android:nestedScrollingEnabled="true"
+                android:id="@+id/recycler_view_squad"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

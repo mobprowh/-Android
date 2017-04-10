@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="@dimen/padding_item"
+    android:paddingRight="@dimen/padding_item"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:id="@+id/homeTeamStat"
+            />
+        <TextView
+            android:paddingBottom="3dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:id="@+id/StatName"
+            />
+        <TextView
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="end"
+            android:textAlignment="viewEnd"
+            android:id="@+id/awayTeamStat"
+            />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ProgressBar
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight="1"
+            android:visibility="visible"
+            style="?android:attr/progressBarStyleHorizontal"
+
+            android:id="@+id/pbHome"/>
+        <ProgressBar
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="15dp"
+            android:layout_weight="1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressTint="#64b5f6"
+            android:visibility="visible"
+            android:id="@+id/pbAway"/>
+    </LinearLayout>
+</LinearLayout>

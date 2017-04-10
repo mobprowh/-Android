@@ -1,0 +1,1481 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="50dp"
+    tools:context="com.bahisadam.fragment.IddaaFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:layout_marginTop="@dimen/header_padding_top_bottom"
+                android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/teamsTitleLabel"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            card_view:contentPaddingBottom="5dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="1dp"
+            card_view:cardUseCompatPadding="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_item">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#f7f7f7"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/header_padding_top_bottom"
+                        android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                        android:textStyle="bold"
+                        android:textColor="@color/headerTextColor"
+                        android:text="@string/matchResultIddaa"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" android:background="#dfdfdf"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:paddingTop="@dimen/padding_top_iddaa"
+                    android:paddingBottom="@dimen/padding_item"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <ImageView
+                        android:id="@+id/macSonuImg"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/label1"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+                            android:textSize="15sp"
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/labelX"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="X"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/label2"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="2"/>
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- half time start -->
+        <android.support.v7.widget.CardView
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            card_view:contentPaddingBottom="5dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="1dp"
+            card_view:cardUseCompatPadding="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_item">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#f7f7f7"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/header_padding_top_bottom"
+                        android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                        android:textStyle="bold"
+                        android:textColor="@color/headerTextColor"
+                        android:text="@string/halfTimeResultIddaa"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" android:background="#dfdfdf"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:paddingTop="@dimen/padding_top_iddaa"
+                    android:paddingBottom="@dimen/padding_item"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <ImageView
+                        android:id="@+id/halfTimeImg"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/halfTimeLabel1"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/halfTimeLabelX"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="X"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/halfTimeLabel2"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="2"/>
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <!-- double chance start -->
+        <android.support.v7.widget.CardView
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            card_view:contentPaddingBottom="5dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="1dp"
+            card_view:cardUseCompatPadding="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_item">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#f7f7f7"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/header_padding_top_bottom"
+                        android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                        android:textStyle="bold"
+                        android:textColor="@color/headerTextColor"
+                        android:text="@string/doubleChanceIddaa"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" android:background="#dfdfdf"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:paddingTop="@dimen/padding_top_iddaa"
+                    android:paddingBottom="@dimen/padding_item"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/doubleChanceImg"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/doubleChanceLabel1X"
+                                android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                                android:textSize="15sp"
+
+                                android:textColor="#212121"
+                                android:gravity="center"
+                                android:text="1"/>
+
+
+                            <TextView
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1-X"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/doublceChanceLabelX2"
+                                android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                                android:textSize="15sp"
+
+                                android:textColor="#212121"
+                                android:gravity="center"
+                                android:text="1"/>
+
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="X-2"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/doubleChanceLabel12"
+                                android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                                android:textSize="15sp"
+
+                                android:textColor="#212121"
+                                android:gravity="center"
+                                android:text="1"/>
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="1-2"/>
+                        </LinearLayout>
+
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="20dp"
+                            android:visibility="gone"/>
+                    </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- handicap start -->
+        <android.support.v7.widget.CardView
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            card_view:contentPaddingBottom="5dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="1dp"
+            card_view:cardUseCompatPadding="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_item">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#f7f7f7"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/header_padding_top_bottom"
+                        android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                        android:textStyle="bold"
+                        android:textColor="@color/headerTextColor"
+                        android:text="@string/handicapResultIddaa"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" android:background="#dfdfdf"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:paddingTop="@dimen/padding_top_iddaa"
+                    android:paddingBottom="@dimen/padding_item"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/hadicapImg"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        />
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/handicapLabel1"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="1"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/handicapLabelX"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="X"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/handicapLabel2"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="2"/>
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- aboveBelow15 start -->
+        <android.support.v7.widget.CardView
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            card_view:contentPaddingBottom="5dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="1dp"
+            card_view:cardUseCompatPadding="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_item">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#f7f7f7"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/header_padding_top_bottom"
+                        android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                        android:textStyle="bold"
+                        android:textColor="@color/headerTextColor"
+                        android:text="@string/aboveBelow15ResultIddaa"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" android:background="#dfdfdf"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:paddingTop="@dimen/padding_top_iddaa"
+                    android:paddingBottom="@dimen/padding_item"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/aboveBelow15Img"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/aboveBelow15LabelAbove"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Üst"/>
+                    </LinearLayout>
+                    <android.support.v4.widget.Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/aboveBelow15LabelBelow"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Alt"/>
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_gravity="center_vertical|right"
+                        android:gravity="center_vertical|right"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- aboveBelow25 start -->
+        <android.support.v7.widget.CardView
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            card_view:contentPaddingBottom="5dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="1dp"
+            card_view:cardUseCompatPadding="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_item">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#f7f7f7"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/header_padding_top_bottom"
+                        android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                        android:textStyle="bold"
+                        android:textColor="@color/headerTextColor"
+                        android:text="@string/aboveBelow25ResultIddaa"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" android:background="#dfdfdf"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:paddingTop="@dimen/padding_top_iddaa"
+                    android:paddingBottom="@dimen/padding_item"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/aboveBelow25Img"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/aboveBelow25LabelAbove"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Üst"/>
+                    </LinearLayout>
+                    <android.support.v4.widget.Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/aboveBelow25LabelBelow"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Alt"/>
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_gravity="center_vertical|right"
+                        android:gravity="center_vertical|right"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <!-- aboveBelow35 start -->
+        <android.support.v7.widget.CardView
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            card_view:contentPaddingBottom="5dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="1dp"
+            card_view:cardUseCompatPadding="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_item">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#f7f7f7"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/header_padding_top_bottom"
+                        android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                        android:textStyle="bold"
+                        android:textColor="@color/headerTextColor"
+                        android:text="@string/aboveBelow35ResultIddaa"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" android:background="#dfdfdf"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:paddingTop="@dimen/padding_top_iddaa"
+                    android:paddingBottom="@dimen/padding_item"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/aboveBelow35Img"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/aboveBelow35LabelAbove"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Üst"/>
+                    </LinearLayout>
+                    <android.support.v4.widget.Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/aboveBelow35LabelBelow"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Alt"/>
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_gravity="center_vertical|right"
+                        android:gravity="center_vertical|right"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <!-- aboveBelowHalfTime15 start -->
+        <android.support.v7.widget.CardView
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            card_view:contentPaddingBottom="5dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="1dp"
+            card_view:cardUseCompatPadding="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_item">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#f7f7f7"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/header_padding_top_bottom"
+                        android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                        android:textStyle="bold"
+                        android:textColor="@color/headerTextColor"
+                        android:text="@string/aboveBelowHalfTime15ResultIddaa"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" android:background="#dfdfdf"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:paddingTop="@dimen/padding_top_iddaa"
+                    android:paddingBottom="@dimen/padding_item"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/aboveBelowHalfTimeImg"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/aboveBelowHalfTime15LabelAbove"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Üst"/>
+                    </LinearLayout>
+                    <android.support.v4.widget.Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/aboveBelowHalfTime15LabelBelow"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Alt"/>
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_gravity="center_vertical|right"
+                        android:gravity="center_vertical|right"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <!-- bothTeamScored start -->
+        <android.support.v7.widget.CardView
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            card_view:contentPaddingBottom="5dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="1dp"
+            card_view:cardUseCompatPadding="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_item">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#f7f7f7"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/header_padding_top_bottom"
+                        android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                        android:textStyle="bold"
+                        android:textColor="@color/headerTextColor"
+                        android:text="@string/bothTeamScoredResultIddaa"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" android:background="#dfdfdf"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:paddingTop="@dimen/padding_top_iddaa"
+                    android:paddingBottom="@dimen/padding_item"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/bothTeamScoredImg"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/bothTeamScoredLabelVar"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Var"
+                            android:id="@+id/bothTeamScoredVar"/>
+                    </LinearLayout>
+                    <android.support.v4.widget.Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/bothTeamScoredLabelYok"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Yok"
+                            android:id="@+id/bothTeamScoredYok"/>
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_gravity="center_vertical|right"
+                        android:gravity="center_vertical|right"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <!-- TotalGoal start -->
+        <android.support.v7.widget.CardView
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#fff"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            card_view:contentPaddingBottom="5dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="1dp"
+            card_view:cardUseCompatPadding="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_item">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#f7f7f7"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/header_padding_top_bottom"
+                        android:layout_marginBottom="@dimen/header_padding_top_bottom"
+                        android:textStyle="bold"
+                        android:textColor="@color/headerTextColor"
+                        android:text="@string/TotalGoalResultIddaa"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" android:background="#dfdfdf"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:paddingTop="@dimen/padding_top_iddaa"
+                    android:paddingBottom="@dimen/padding_item"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:id="@+id/totalGoalImg"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.75"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/totalGoalLabel12"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="1-2"
+                            android:id="@+id/totalGoal12"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.75"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/totalGoalLabel23"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="2-3"
+                            android:id="@+id/totalGoal23"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.75"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/totalGoalLabel46"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="4-6"
+                            android:id="@+id/totalGoal46"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="0.75"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/totalGoalLabel7"
+                            android:maxWidth="30dp" android:layout_gravity="center" android:background="@drawable/shape_iddaa"
+
+                            android:textSize="15sp"
+
+                            android:textColor="#212121"
+                            android:gravity="center"
+                            android:text="1"/>
+
+
+
+                        =
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:id="@+id/TotalGoal7"
+                            android:text="7+" />
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_gravity="center_vertical|right"
+                        android:gravity="center_vertical|right"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
